@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Homework2_3">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7.java" beforeDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson 7">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +46,13 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Hometask_alone2_3">
-    <configuration name="Hometask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson6.hometask.Hometask2" />
+  <component name="RunManager" selected="Application.Task3">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson7.ArrayExample" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.lesson6.hometask.*" />
+          <option name="PATTERN" value="com.dmdev.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hometask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson6.hometask.Hometask3" />
+    <configuration name="ArrayExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson7.ArrayExample2" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.lesson6.hometask.*" />
+          <option name="PATTERN" value="com.dmdev.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hometask_alone2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.Hometask_alone2_1" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson7.task.Task1" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask2.*" />
+          <option name="PATTERN" value="com.dmdev.lesson7.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hometask_alone2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.Hometask_alone2_2" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson7.task.Task2" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask2.*" />
+          <option name="PATTERN" value="com.dmdev.lesson7.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hometask_alone2_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.Hometask_alone2_3" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson7.task.Task3" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask2.*" />
+          <option name="PATTERN" value="com.dmdev.lesson7.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hometask_alone2_3" />
-        <item itemvalue="Application.Hometask_alone2_2" />
-        <item itemvalue="Application.Hometask_alone2_1" />
-        <item itemvalue="Application.Hometask3" />
-        <item itemvalue="Application.Hometask2" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.ArrayExample2" />
+        <item itemvalue="Application.ArrayExample" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662577113311</updated>
       <workItem from="1662577114677" duration="53774000" />
-      <workItem from="1662974982146" duration="14189000" />
+      <workItem from="1662974982146" duration="23826000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -143,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662999316472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 7">
+      <created>1662999513921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662999513921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +174,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework_1" />
     <MESSAGE value="Homework2_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework2_3" />
+    <MESSAGE value="lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dmdev_tasks$Hometask_alone2_3.ic" NAME="Hometask_alone2_3 Coverage Results" MODIFIED="1662979125497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
