@@ -12,7 +12,7 @@ package com.dmdev.hometask1;
  * Результат: 34.5 (24.4 + 10.1)
  */
 
-public class Hometask_alone2 {
+public class Hometask_alone1_2 {
     public static void main(String[] args) {
         calculation(232,5,'+');
         calculation(5,10,'-');

@@ -8,7 +8,7 @@ package com.dmdev.hometask1;
   * Вторая: сравнивает переданные площади двух треугольников и выводит на консоль первый треугольник больше, меньше или равен второму.
   * Учитывать, что площадь может быть вещественным числом.
  * */
-public class Hometask_alone3 {
+public class Hometask_alone1_3 {
     public static void main(String[] args) {
         triangleСomparison(triangleSquare(4.2,5.2), triangleSquare(4.2,5.2) );
     }
