@@ -29,5 +29,6 @@ public class Hometask1 {
         for (int i : array) {
             System.out.print(i + " ");
         }
+        System.out.println();
     }
 }
