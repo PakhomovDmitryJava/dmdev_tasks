@@ -8,8 +8,6 @@ package com.dmdev.hometask3;
  * Пример:
  * [-4, 0, 1, 9, 0, -18, 3] -> {[-4, -18],[0, 0],[1, 9, 3]}
  */
-
-
 public class Hometask3_3 {
     public static void main(String[] args) {
         int[] values = {4, 0, 1, -9, 0, 18, 3, -7, 100, -101};
