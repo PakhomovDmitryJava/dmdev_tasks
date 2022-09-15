@@ -10,7 +10,7 @@ import com.dmdev.lesson7.hometask.Hometask1;
  * Например: [3, 5, -6, 3, 2, -9, 0, -123] -> [15, 25, 15, 10, 0]
  * Не забывать, что всю логику приложения нужно выносить в отдельные функции. main - только для тестирования написанного функционала.
  */
-public class Hometask3_1 {
+public class HometaskAlone31 {
     public static void main(String[] args) {
         int[] numbers = {3, 5, -6, 3, 2, -9, 0, -123,3, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -123 };
         Hometask1.printArray(creatingNewArray(numbers));

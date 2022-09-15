@@ -7,7 +7,7 @@ package com.dmdev.hometask1;
  * Протестировать функцию в main.
  */
 
-public class Hometask_alone1_1 {
+public class HometaskAlone11 {
     public static void main(String[] args) {
         for (int i = 0; i < 60; i++) {
             quarterIdentifier(i);

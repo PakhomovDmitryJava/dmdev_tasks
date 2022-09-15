@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Для решения написать 2 функции, которые будут принимать введенное целое число, а возвращать количество четных цифр (вторая функция - нечетных).
  * Например: если введено число 228910, то у него 4 четные цифры (2, 2, 8, 0) и 2 нечетные (9, 1).
  */
-public class Hometask_alone2_1 {
+public class HometaskAlone21 {
     public static void main(String[] args) {
         oddNumbers();
         evenNumbers();
@@ -21,7 +21,7 @@ public class Hometask_alone2_1 {
             System.out.println("The number mustn't be equals to zero! Input correct number.");
             number = scanner.nextInt();
         }
-        int oddNumber = 0;
+        int oddNumber;
         int counter = 0;
         while (number != 0) {
             if (((number % 10) % 2) == 0) {
@@ -41,7 +41,7 @@ public class Hometask_alone2_1 {
             System.out.println("The number mustn't be equals to zero! Input correct number.");
             number = scanner.nextInt();
         }
-        int evenNumber = 0;
+        int evenNumber;
         int counter = 0;
         while (number != 0) {
             if (((number % 10) % 2) != 0) {

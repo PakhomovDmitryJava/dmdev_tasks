@@ -1,7 +1,5 @@
 package com.dmdev.hometask3;
 
-import com.dmdev.lesson7.hometask.Hometask1;
-
 /**
  * Дан одномерный массив символов.
  * Преобразовать его в одномерный массив чисел, где число - это код символа (любой символ - это число в памяти компьютера).
@@ -10,9 +8,9 @@ import com.dmdev.lesson7.hometask.Hometask1;
  * Далее определить среднее арифметическое всех элементов целочисленного массива
  * и вывести на консоль только те элементы, которые больше этого среднего арифметического.
  */
-public class Hometask3_2 {
+public class HometaskAlone32 {
     public static void main(String[] args) {
-        char[] letters = {'a', '6', 'y', 'P', 'T', 'q', '9', '+'};
+        char[] letters = {'d', 'q', 'z', 'Q', 's', 'C', 'L', '!'};
         replaceLetters(letters);
     }
 
@@ -20,7 +18,7 @@ public class Hometask3_2 {
         int[] results = new int[values.length];
         int average = 0;
         for (int i = 0; i < values.length; i++) {
-            results[i] = (int) values[i];
+            results[i] = values[i];
             average += results[i];
         }
 

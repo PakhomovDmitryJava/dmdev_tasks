@@ -8,7 +8,7 @@ package com.dmdev.hometask2;
  * Посчитать, сколько Ваня будет иметь средств на своем счету и на счету брокера за 3 года и 2 месяца.
  * Для интереса: попробовать увеличить процент, которые Ваня инвестирует из своей зарплаты
  */
-public class Hometask_alone2_3 {
+public class HometaskAlone23 {
     public static void main(String[] args) {
         bankAccount(600, 400, 6, 300, 10
                 , 38);
@@ -18,7 +18,7 @@ public class Hometask_alone2_3 {
                                    double expensesPerMonth, double percentForBroker, double period) {
         double bankAccount = 0;
         double brokerAccount = 0;
-        double moneyForBroker = 0;
+        double moneyForBroker;
         double currentSalary = startSalary;
         for (int i = 1; i <= period; i++) {
             moneyForBroker = currentSalary * (percentForBroker / 100);
@@ -26,8 +26,6 @@ public class Hometask_alone2_3 {
             brokerAccount = brokerAccount + moneyForBroker + currentSalary * (percentForBroker / 100) * 0.02;
             if (i % (growthPeriod - 1) == 0) {
                 currentSalary = currentSalary + salaryGrowth;
-            } else {
-                continue;
             }
         }
         System.out.println(bankAccount);

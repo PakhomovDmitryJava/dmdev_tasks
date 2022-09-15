@@ -8,7 +8,7 @@ package com.dmdev.hometask3;
  * Пример:
  * [-4, 0, 1, 9, 0, -18, 3] -> {[-4, -18],[0, 0],[1, 9, 3]}
  */
-public class Hometask3_3 {
+public class HometaskAlone33 {
     public static void main(String[] args) {
         int[] values = {4, 0, 1, -9, 0, 18, 3, -7, 100, -101};
 
@@ -86,8 +86,7 @@ public class Hometask3_3 {
     }
 
     public static int[][] matrix(int[] negativeArray, int[] zeroArray, int[] positiveArray) {
-        int[][] result = {negativeArray, zeroArray, positiveArray};
-        return result;
+        return new int[][]{negativeArray, zeroArray, positiveArray};
     }
 
 

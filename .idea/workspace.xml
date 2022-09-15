@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask4 was started">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask4 was started&#10;Mentor's comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/Hometask_alone1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/Hometask_alone1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/Hometask_alone1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/Hometask_alone1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/Hometask_alone1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/Hometask_alone2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/Hometask_alone2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/Hometask_alone2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/Hometask3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/Hometask3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/Hometask3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +57,7 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositionRunner">
+  <component name="RunManager" selected="Application.HometaskAlone22">
     <configuration name="CompositionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson7.CompositionRunner" />
       <module name="dmdev_tasks" />
@@ -62,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.oop.lesson10.task.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task2" />
+    <configuration name="HometaskAlone12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask1.HometaskAlone12" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
+          <option name="PATTERN" value="com.dmdev.hometask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.oop.lesson10.task.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task3" />
+    <configuration name="HometaskAlone22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.HometaskAlone22" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
+          <option name="PATTERN" value="com.dmdev.hometask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.oop.lesson10.task.Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task4" />
+    <configuration name="HometaskAlone32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone32" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
+          <option name="PATTERN" value="com.dmdev.hometask3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HometaskAlone22" />
+        <item itemvalue="Application.HometaskAlone32" />
+        <item itemvalue="Application.HometaskAlone12" />
         <item itemvalue="Application.CompositionRunner" />
         <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task5" />
-        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task4" />
-        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task3" />
-        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +143,7 @@
       <updated>1662577113311</updated>
       <workItem from="1662577114677" duration="53774000" />
       <workItem from="1662974982146" duration="57554000" />
-      <workItem from="1663181411006" duration="13455000" />
+      <workItem from="1663181411006" duration="14677000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -213,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663270191584</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Hometask4 was started">
+      <created>1663271787638</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663271787638</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,13 +255,14 @@
     <MESSAGE value="lesson 7&#10;Hometask_alone3_3" />
     <MESSAGE value="Hometask4" />
     <MESSAGE value="Hometask4 was started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hometask4 was started" />
+    <MESSAGE value="Hometask4 was started&#10;Mentor's comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometask4 was started&#10;Mentor's comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/Hometask3_1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java</url>
           <line>22</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>

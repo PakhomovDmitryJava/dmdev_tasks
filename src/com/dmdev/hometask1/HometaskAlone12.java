@@ -12,7 +12,7 @@ package com.dmdev.hometask1;
  * Результат: 34.5 (24.4 + 10.1)
  */
 
-public class Hometask_alone1_2 {
+public class HometaskAlone12 {
     public static void main(String[] args) {
         calculation(232,5,'+');
         calculation(5,10,'-');
@@ -22,10 +22,10 @@ public class Hometask_alone1_2 {
 
     public static void calculation(double x, double y, char mathSign) {
         switch (mathSign) {
-            case '+' -> System.out.println(Double.toString(x) + " + " + Double.toString(y) + " = " + (x + y));
-            case '-' -> System.out.println(Double.toString(x) + " - " + Double.toString(y) + " = " + (x - y));
-            case '*' -> System.out.println(Double.toString(x) + " * " + Double.toString(y) + " = " + (x * y));
-            case '/' -> System.out.println(Double.toString(x) + " / " + Double.toString(y) + " = " + (x / y));
+            case '+' -> System.out.println(x + " + " + y + " = " + (x + y));
+            case '-' -> System.out.println(x + " - " + y + " = " + (x - y));
+            case '*' -> System.out.println(x + " * " + y + " = " + (x * y));
+            case '/' -> System.out.println(x + " / " + y + " = " + (x / y));
         }
     }
 }

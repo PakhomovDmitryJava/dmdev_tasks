@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Например: 4508 -> 8054, 4700 -> 74, 1234567 -> 7654321
  * Примечание: для решения может понадобиться функция возведение числа в степень: Math.pow(число, степень)
  */
-public class Hometask_alone2_2 {
+public class HometaskAlone22 {
     public static void main(String[] args) {
         reverseNumber();
     }
@@ -22,7 +22,7 @@ public class Hometask_alone2_2 {
             System.out.println("The number mustn't be equals to zero! Input correct number.");
             number = scanner.nextInt();
         }
-        int reversedNumber = 0;
+        int reversedNumber;
         while (number != 0) {
             if (number % 10 != 0) {
                 reversedNumber = number % 10;
