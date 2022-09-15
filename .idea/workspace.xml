@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson 7&#10;Hometask_alone3_3">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/HomeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson1/TestExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson2/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson2/ComputerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson6/Lesson6Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/CompositionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Ram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Ssd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/task/TimeInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/task/TimeIntervalRunner.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask4">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask/Hometask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson9/StaticRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/CompositionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/CompositionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeRunner">
+  <component name="RunManager" selected="Application.CompositionRunner">
     <configuration name="CompositionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson7.CompositionRunner" />
       <module name="dmdev_tasks" />
@@ -76,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson2.ComputerRunner" />
+    <configuration name="com.dmdev.oop.lesson10.task.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task2" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson2.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask4.HomeRunner" />
+    <configuration name="com.dmdev.oop.lesson10.task.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task3" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask4.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson1.TestExample" />
+    <configuration name="com.dmdev.oop.lesson10.task.Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task4" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson1.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeIntervalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson7.task.TimeIntervalRunner" />
+    <configuration name="com.dmdev.oop.lesson10.task.Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.task.Task5" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson7.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson10.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeRunner" />
-        <item itemvalue="Application.TimeIntervalRunner" />
         <item itemvalue="Application.CompositionRunner" />
-        <item itemvalue="Application.ComputerRunner" />
-        <item itemvalue="Application.TestExample" />
+        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task5" />
+        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task4" />
+        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task3" />
+        <item itemvalue="Application.com.dmdev.oop.lesson10.task.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +142,7 @@
       <updated>1662577113311</updated>
       <workItem from="1662577114677" duration="53774000" />
       <workItem from="1662974982146" duration="57554000" />
-      <workItem from="1663181411006" duration="3450000" />
+      <workItem from="1663181411006" duration="12463000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -213,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663156533448</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Hometask4">
+      <created>1663185001422</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663185001422</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +238,8 @@
     <MESSAGE value="lesson 7&#10;Hometask_alone3_1" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_2" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 7&#10;Hometask_alone3_3" />
+    <MESSAGE value="Hometask4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometask4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -246,6 +248,11 @@
           <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/Hometask3_1.java</url>
           <line>22</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
