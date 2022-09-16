@@ -44,6 +44,5 @@ public class HometaskAlone52 {
             sum += digit;
         }
         return (double) sum / digits.length;
-
     }
 }
