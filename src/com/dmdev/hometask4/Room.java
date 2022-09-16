@@ -1,14 +1,14 @@
 package com.dmdev.hometask4;
 
 public class Room {
-  private boolean walktroughRoom;
+    private boolean walktroughRoom;
 
     public Room(boolean walktroughRoom) {
         this.walktroughRoom = walktroughRoom;
     }
 
     public void print() {
-        if (walktroughRoom == true) {
+        if (walktroughRoom) {
             System.out.println("This room is walk-through!");
         } else {
             System.out.println("This room is NOT walk-through!");

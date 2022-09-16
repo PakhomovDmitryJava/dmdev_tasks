@@ -33,6 +33,7 @@ public class HometaskAlone21 {
         }
         System.out.println("\nThe value of odd numbers is: " + counter);
     }
+
     public static void evenNumbers() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number. The number mustn't be equals to zero!");
