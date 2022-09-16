@@ -1,4 +1,4 @@
-package com.dmdev.oop.lesson10.hometask;
+package com.dmdev.oop.lesson10.hometask1;
 
 /**
  * Написать программу, преобразующую строку, содержащую число в римском формате, в число в арабском формате.

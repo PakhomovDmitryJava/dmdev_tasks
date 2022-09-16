@@ -1,4 +1,4 @@
-package com.dmdev.oop.lesson10.hometask;
+package com.dmdev.oop.lesson10.hometask1;
 
 /**
  * Проверить, является ли введённая строка палиндромом, т.е. читается одинаково в обоих направлениях.
