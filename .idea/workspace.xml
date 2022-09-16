@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask4 was started&#10;Mentor's comments">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask5/HometaskAlone51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask/Hometask2.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask51">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask5/HometaskAlone52.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask/Hometask1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HometaskAlone51">
+  <component name="RunManager" selected="Application.HometaskAlone52">
     <configuration name="Hometask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson10.hometask.Hometask1" />
       <module name="dmdev_tasks" />
@@ -91,19 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HometaskAlone32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone32" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HometaskAlone51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask5.HometaskAlone51" />
       <module name="dmdev_tasks" />
@@ -117,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HometaskAlone52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask5.HometaskAlone52" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.hometask5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HometaskAlone52" />
         <item itemvalue="Application.HometaskAlone51" />
         <item itemvalue="Application.Hometask2" />
         <item itemvalue="Application.Hometask1" />
         <item itemvalue="Application.HometaskAlone22" />
-        <item itemvalue="Application.HometaskAlone32" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +135,7 @@
       <workItem from="1662577114677" duration="53774000" />
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
-      <workItem from="1663317459532" duration="10469000" />
+      <workItem from="1663317459532" duration="14309000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -231,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663273486459</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hometask51">
+      <created>1663333493873</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663333493873</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Hometask51">
+      <created>1663333505701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663333505701</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +269,8 @@
     <MESSAGE value="Hometask4" />
     <MESSAGE value="Hometask4 was started" />
     <MESSAGE value="Hometask4 was started&#10;Mentor's comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hometask4 was started&#10;Mentor's comments" />
+    <MESSAGE value="Hometask51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometask51" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
