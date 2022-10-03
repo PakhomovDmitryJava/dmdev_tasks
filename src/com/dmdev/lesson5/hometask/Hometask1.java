@@ -1,4 +1,4 @@
-package com.dmdev.lesson5;
+package com.dmdev.lesson5.hometask;
 
 /**
  * Имеются три числа - день, месяц и год, вводимые пользователем с консоли.

@@ -14,18 +14,22 @@ package com.dmdev.hometask1;
 
 public class HometaskAlone12 {
     public static void main(String[] args) {
-        calculation(232, 5, '+');
-        calculation(5, 10, '-');
-        calculation(1231.2323, 3333.3, '*');
-        calculation(6565, 0.5, '/');
+        System.out.println(calculation(232, 5, '+'));
+        System.out.println(calculation(5, 10, '-'));
+        System.out.println(calculation(1231.2323, 3333.3, '*'));
+        System.out.println(calculation(6565, 0.5, '/'));
+        System.out.println(calculation(6565, 0.5, '!'));
     }
 
-    public static void calculation(double x, double y, char mathSign) {
+    public static double calculation(double x, double y, char mathSign) {
+       double result = 0;
         switch (mathSign) {
-            case '+' -> System.out.println(x + " + " + y + " = " + (x + y));
-            case '-' -> System.out.println(x + " - " + y + " = " + (x - y));
-            case '*' -> System.out.println(x + " * " + y + " = " + (x * y));
-            case '/' -> System.out.println(x + " / " + y + " = " + (x / y));
+            case '+' -> result = x + y;
+            case '-' -> result = x - y;
+            case '*' -> result = x * y;
+            case '/' -> result = x / y;
+            default -> System.out.println("Wrong input!");
         }
+        return result;
     }
 }

@@ -9,23 +9,16 @@ import java.util.Scanner;
  */
 public class HometaskAlone21 {
     public static void main(String[] args) {
-        oddNumbers();
-        evenNumbers();
+        countOddNumbers();
+        countEvenNumbers();
     }
 
-    public static void oddNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input number. The number mustn't be equals to zero!");
-        int number = scanner.nextInt();
-        if (number == 0) {
-            System.out.println("The number mustn't be equals to zero! Input correct number.");
-            number = scanner.nextInt();
-        }
-        int oddNumber;
+    public static void countOddNumbers() {
+        int number = consoleInputReader();
         int counter = 0;
         while (number != 0) {
             if (((number % 10) % 2) == 0) {
-                oddNumber = number % 10;
+                int oddNumber = number % 10;
                 System.out.print(oddNumber + " ");
                 counter++;
             }
@@ -34,24 +27,28 @@ public class HometaskAlone21 {
         System.out.println("\nThe value of odd numbers is: " + counter);
     }
 
-    public static void evenNumbers() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input number. The number mustn't be equals to zero!");
-        int number = scanner.nextInt();
-        if (number == 0) {
-            System.out.println("The number mustn't be equals to zero! Input correct number.");
-            number = scanner.nextInt();
-        }
-        int evenNumber;
+    public static void countEvenNumbers() {
+        int number = consoleInputReader();
         int counter = 0;
         while (number != 0) {
             if (((number % 10) % 2) != 0) {
-                evenNumber = number % 10;
+                int evenNumber = number % 10;
                 System.out.print(evenNumber + " ");
                 counter++;
             }
             number /= 10;
         }
         System.out.println("\nThe value of even numbers is: " + counter);
+    }
+
+    public static int consoleInputReader() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input number. The number mustn't be equal to zero!");
+        int number = scanner.nextInt();
+        if (number == 0) {
+            System.out.println("The number mustn't be equal to zero! Input correct number.");
+            number = scanner.nextInt();
+        }
+        return number;
     }
 }

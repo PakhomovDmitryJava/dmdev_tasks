@@ -1,7 +1,5 @@
 package com.dmdev.hometask2;
 
-import java.util.Scanner;
-
 /**
  * Дано целое число.
  * Написать функцию, которая принимает целое число, а возвращает целое число обратное этому (не строку!).
@@ -11,27 +9,27 @@ import java.util.Scanner;
  */
 public class HometaskAlone22 {
     public static void main(String[] args) {
-        reverseNumber();
+        System.out.println(reverseNumber());
     }
 
-    public static void reverseNumber() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input number. The number mustn't be equals to zero!");
-        int number = scanner.nextInt();
-        if (number == 0) {
-            System.out.println("The number mustn't be equals to zero! Input correct number.");
-            number = scanner.nextInt();
-        }
-        int reversedNumber;
-        while (number != 0) {
-            if (number % 10 != 0) {
-                reversedNumber = number % 10;
-                System.out.print(reversedNumber);
-            } else if (number % 10 == 0) {
-                reversedNumber = 0;
-                System.out.print(reversedNumber);
-            }
+    public static int reverseNumber() {
+        int number = HometaskAlone21.consoleInputReader();
+        int length = countDigits(number);
+        int reversedNumber = 0;
+        for (int i = 1; i <= length; i++) {
+            reversedNumber = (int) (reversedNumber + (number % 10) * Math.pow(10, length - i));
             number /= 10;
         }
+        return reversedNumber;
+    }
+
+    public static int countDigits(int number) {
+        int length = 0;
+        long temp = 1;
+        while (temp <= number) {
+            length++;
+            temp *= 10;
+        }
+        return length;
     }
 }

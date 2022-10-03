@@ -12,21 +12,19 @@ package com.dmdev.hometask1;
  */
 public class HometaskAlone13 {
     public static void main(String[] args) {
-        triangleComparison(triangleSquare(4.2, 5.2), triangleSquare(4.2, 5.2));
+        trianglesComparison(findTriangleSquare(4.2, 5.2), findTriangleSquare(4.2, 5.2));
     }
 
-    // S triangle = (a × b) / 2
-    public static double triangleSquare(double aSide, double bSide) {
+    public static double findTriangleSquare(double aSide, double bSide) {
         return (aSide * bSide) / 2;
     }
 
-    // Comparsion
-    public static void triangleComparison(double triangleSquare1, double triangleSquare2) {
-        if (triangleSquare1 > triangleSquare2) {
+    public static void trianglesComparison(double first, double second) {
+        if (first > second) {
             System.out.println("The first triangle is bigger than the second triangle!");
-        } else if (triangleSquare1 == triangleSquare2) {
+        } else if (first == second) {
             System.out.println("The triangles are equal!");
-        } else if (triangleSquare1 < triangleSquare2) {
+        } else if (first < second) {
             System.out.println("The first triangle is smaller than the second triangle!");
         }
     }
