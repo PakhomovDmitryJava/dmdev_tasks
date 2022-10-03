@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson11 and Hometask1 about Point and Rectangle and  for this lesson">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson5/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lesson5/hometask/Hometask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson5/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/lesson5/hometask/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HometaskAlone22">
+  <component name="RunManager" selected="Application.HometaskAlone23">
     <configuration name="HometaskAlone12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask1.HometaskAlone12" />
       <module name="dmdev_tasks" />
@@ -106,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson11.hometask1.PointRunner" />
+    <configuration name="HometaskAlone23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.HometaskAlone23" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson11.hometask1.*" />
+          <option name="PATTERN" value="com.dmdev.hometask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HometaskAlone23" />
         <item itemvalue="Application.HometaskAlone22" />
         <item itemvalue="Application.HometaskAlone21" />
         <item itemvalue="Application.HometaskAlone13" />
         <item itemvalue="Application.HometaskAlone12" />
-        <item itemvalue="Application.PointRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +136,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="6536000" />
+      <workItem from="1664779744409" duration="7213000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -276,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663361340518</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22.">
+      <created>1664791964708</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664791964708</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +309,8 @@
     <MESSAGE value="Hometask52" />
     <MESSAGE value="Hometask4&#10;Added description to class HomeRunner" />
     <MESSAGE value="lesson11 and Hometask1 about Point and Rectangle and  for this lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson11 and Hometask1 about Point and Rectangle and  for this lesson" />
+    <MESSAGE value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,9 +326,9 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone22.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

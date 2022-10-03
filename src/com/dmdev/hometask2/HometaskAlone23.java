@@ -23,8 +23,8 @@ public class HometaskAlone23 {
         for (int i = 1; i <= period; i++) {
             moneyForBroker = currentSalary * (percentForBroker / 100);
             bankAccount = bankAccount + (currentSalary - expensesPerMonth - moneyForBroker);
-            brokerAccount = brokerAccount + moneyForBroker + currentSalary * (percentForBroker / 100) * 0.02;
-            if (i % (growthPeriod - 1) == 0) {
+            brokerAccount = brokerAccount + moneyForBroker + moneyForBroker * 0.02;
+            if (i % (growthPeriod) == 0) {
                 currentSalary = currentSalary + salaryGrowth;
             }
         }
