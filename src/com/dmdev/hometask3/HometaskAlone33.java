@@ -13,26 +13,22 @@ public class HometaskAlone33 {
         int[] values = {4, 0, 1, -9, 0, 18, 3, -7, 100, -101};
 
         int[][] result = matrix(findNegativeArray(values), findZeroArray(values), findPositiveArray(values));
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result[i].length; j++) {
-                System.out.print(result[i][j] + " ");
-            }
-            System.out.println();
-        }
+
+        printMatrix(result);
     }
 
     public static int[] findPositiveArray(int[] array) {
-        int[] resultPositive;
         int resultArrayLength = 0;
         for (int i : array) {
             if (i > 0) {
                 resultArrayLength++;
             }
         }
+
         if (resultArrayLength == 0) {
-            return resultPositive = new int[]{};
+            return new int[]{};
         } else {
-            resultPositive = new int[resultArrayLength];
+            int[] resultPositive = new int[resultArrayLength];
             for (int i = 0, k = 0; i < array.length; i++) {
                 if (array[i] > 0) {
                     resultPositive[k++] = array[i];
@@ -43,18 +39,18 @@ public class HometaskAlone33 {
     }
 
     public static int[] findNegativeArray(int[] array) {
-        int[] resultNegative;
         int resultArrayLength = 0;
         for (int i : array) {
             if (i < 0) {
                 resultArrayLength++;
             }
         }
+
         if (resultArrayLength == 0) {
-            return resultNegative = new int[]{};
+            return new int[]{};
 
         } else {
-            resultNegative = new int[resultArrayLength];
+            int[] resultNegative = new int[resultArrayLength];
             for (int i = 0, k = 0; i < array.length; i++) {
                 if (array[i] < 0) {
                     resultNegative[k++] = array[i];
@@ -65,7 +61,6 @@ public class HometaskAlone33 {
     }
 
     public static int[] findZeroArray(int[] array) {
-        int[] resultZero;
         int resultArrayLength = 0;
         for (int i : array) {
             if (i == 0) {
@@ -73,9 +68,9 @@ public class HometaskAlone33 {
             }
         }
         if (resultArrayLength == 0) {
-            return resultZero = new int[]{};
+            return new int[]{};
         } else {
-            resultZero = new int[resultArrayLength];
+            int[] resultZero = new int[resultArrayLength];
             for (int i = 0, k = 0; i < array.length; i++) {
                 if (array[i] == 0) {
                     resultZero[k++] = array[i];
@@ -87,6 +82,15 @@ public class HometaskAlone33 {
 
     public static int[][] matrix(int[] negativeArray, int[] zeroArray, int[] positiveArray) {
         return new int[][]{negativeArray, zeroArray, positiveArray};
+    }
+
+    public static void printMatrix(int[][] matrix) {
+        for (int[] ints : matrix) {
+            for (int anInt : ints) {
+                System.out.print(anInt + " ");
+            }
+            System.out.println();
+        }
     }
 
 
