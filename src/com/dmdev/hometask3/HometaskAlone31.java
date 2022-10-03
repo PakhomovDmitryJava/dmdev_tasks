@@ -12,11 +12,13 @@ import com.dmdev.lesson7.hometask.Hometask1;
  */
 public class HometaskAlone31 {
     public static void main(String[] args) {
-        int[] numbers = {3, 5, -6, 3, 2, -9, 0, -123, 3, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -123};
-        Hometask1.printArray(creatingNewArray(numbers));
+        int[] numbers1 = {3, 5, -6, 3, 2, -9, 0, -123, 3, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -1233, 5, -6, 3, 2, -9, 0, -123};
+        Hometask1.printArray(createPositiveArray(numbers1));
+        int[] numbers2 = {1,2,3,4,5,-1,-2};
+        Hometask1.printArray(createPositiveArray(numbers2));
     }
 
-    public static int positiveNumbersCounting(int[] array) {
+    public static int countPositiveNumbers(int[] array) {
         int positiveNumbersCounter = 0;
         for (int i : array) {
             if (i >= 0) {
@@ -26,12 +28,12 @@ public class HometaskAlone31 {
         return positiveNumbersCounter;
     }
 
-    public static int[] creatingNewArray(int[] array) {
-        int resultArrayLength = positiveNumbersCounting(array);
+    public static int[] createPositiveArray(int[] array) {
+        int resultArrayLength = countPositiveNumbers(array);
         int[] result = new int[resultArrayLength];
         for (int i = 0, k = 0; i < array.length; i++) {
-            array[i] *= resultArrayLength;
             if (array[i] >= 0) {
+                array[i] *= resultArrayLength;
                 result[k++] = array[i];
             }
         }

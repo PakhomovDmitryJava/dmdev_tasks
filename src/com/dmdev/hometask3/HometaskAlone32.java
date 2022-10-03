@@ -4,33 +4,47 @@ package com.dmdev.hometask3;
  * Дан одномерный массив символов.
  * Преобразовать его в одномерный массив чисел, где число - это код символа (любой символ - это число в памяти компьютера).
  * Например: ['a', '6', 'y', 'P', 'T', 'q', '9', '+'] -> [97, 54, 121, 80, 84, 113, 57, 43]
- * <p>
  * Далее определить среднее арифметическое всех элементов целочисленного массива
  * и вывести на консоль только те элементы, которые больше этого среднего арифметического.
  */
 public class HometaskAlone32 {
     public static void main(String[] args) {
         char[] letters = {'d', 'q', 'z', 'Q', 's', 'C', 'L', '!'};
-        replaceLetters(letters);
+        int[] results = transformToIntArray(letters);
+        for (int result : results) {
+            System.out.println(result);
+        }
+        System.out.println(findAverage(results));
+        printBiggerThanAverage(results);
     }
 
-    public static void replaceLetters(char[] values) {
+
+    public static int[] transformToIntArray(char[] values) {
         int[] results = new int[values.length];
-        int average = 0;
         for (int i = 0; i < values.length; i++) {
             results[i] = values[i];
-            average += results[i];
         }
-
-        System.out.println("Average is: " + average / results.length);
-
-        for (int result : results) {
-            if (result > average / results.length) {
-                System.out.print(result + " ");
-            }
-
-        }
+        return results;
     }
 
 
+    public static double findAverage(int[] array) {
+        double arraySum = 0;
+        for (int i : array) {
+            arraySum += i;
+        }
+        return arraySum / array.length;
+
+    }
+
+    public static void printBiggerThanAverage(int[] array) {
+        double average = findAverage(array);
+        for (int result : array) {
+            if (result > average) {
+                System.out.print(result + " ");
+            }
+        }
+    }
 }
+
+

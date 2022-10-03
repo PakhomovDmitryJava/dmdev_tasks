@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22.">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Code clean and work on bugs: HometaskAlone23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,33 +49,7 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HometaskAlone23">
-    <configuration name="HometaskAlone12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask1.HometaskAlone12" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HometaskAlone13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask1.HometaskAlone13" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HometaskAlone32">
     <configuration name="HometaskAlone21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask2.HometaskAlone21" />
       <module name="dmdev_tasks" />
@@ -114,13 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HometaskAlone31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone31" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.hometask3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HometaskAlone32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone32" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.hometask3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HometaskAlone32" />
+        <item itemvalue="Application.HometaskAlone31" />
         <item itemvalue="Application.HometaskAlone23" />
         <item itemvalue="Application.HometaskAlone22" />
         <item itemvalue="Application.HometaskAlone21" />
-        <item itemvalue="Application.HometaskAlone13" />
-        <item itemvalue="Application.HometaskAlone12" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="7213000" />
+      <workItem from="1664779744409" duration="10074000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664791964708</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Code clean and work on bugs: HometaskAlone23">
+      <created>1664792309465</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664792309465</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,25 +318,21 @@
     <MESSAGE value="Hometask4&#10;Added description to class HomeRunner" />
     <MESSAGE value="lesson11 and Hometask1 about Point and Rectangle and  for this lesson" />
     <MESSAGE value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
+    <MESSAGE value="Code clean and work on bugs: HometaskAlone23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code clean and work on bugs: HometaskAlone23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java</url>
           <line>17</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="57" />
+          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
