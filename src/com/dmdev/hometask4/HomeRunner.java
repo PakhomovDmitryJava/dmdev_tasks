@@ -35,6 +35,6 @@ public class HomeRunner {
         Home home = new Home(1, floors);
         home.print();
 
-        home.printAllInformation(home);
+        home.printAllInformation();
     }
 }

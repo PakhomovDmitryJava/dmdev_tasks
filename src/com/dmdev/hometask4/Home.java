@@ -1,21 +1,26 @@
 package com.dmdev.hometask4;
 
+import java.util.Arrays;
+
 public class Home {
-    private int homeNumber;
+    private int number;
     private Floor[] floors;
 
-    public Home(int homeNumber, Floor[] floors) {
-        this.homeNumber = homeNumber;
+    public Home(int number, Floor[] floors) {
+        this.number = number;
         this.floors = floors;
     }
 
+    public Home() {
+    }
+
     public void print() {
-        System.out.println("Home number is " + homeNumber + ", "
+        System.out.println("Home number is " + number + ", "
                 + "number of apartments is " + floors.length);
     }
 
-    public void printAllInformation(Home home) {
-        home.print();
+    public void printAllInformation() {
+        this.print();
         for (Floor floor : floors) {
             floor.print();
             Apartment[] apartments = floor.getApartments();
@@ -29,12 +34,12 @@ public class Home {
         }
     }
 
-    public int getHomeNumber() {
-        return homeNumber;
+    public int getNumber() {
+        return number;
     }
 
-    public void setHomeNumber(int homeNumber) {
-        this.homeNumber = homeNumber;
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public Floor[] getFloors() {
@@ -45,4 +50,21 @@ public class Home {
         this.floors = floors;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Home home = (Home) o;
+
+        if (number != home.number) return false;
+        return Arrays.equals(floors, home.floors);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = number;
+        result = 31 * result + Arrays.hashCode(floors);
+        return result;
+    }
 }
