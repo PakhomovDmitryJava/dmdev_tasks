@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Code cleanup: HometaskAlone33">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask6 was started&#10;Hometask4 code cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/HomeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/HomeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask4/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +137,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="30568000" />
+      <workItem from="1664779744409" duration="36510000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -312,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664795662854</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Hometask6 was started&#10;Hometask4 code cleanup">
+      <created>1664829558920</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664829558920</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +349,8 @@
     <MESSAGE value="Code clean and work on bugs: HometaskAlone23" />
     <MESSAGE value="Code clean and work on bugs: HometaskAlone31, 32" />
     <MESSAGE value="Code cleanup: HometaskAlone33" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code cleanup: HometaskAlone33" />
+    <MESSAGE value="Hometask6 was started&#10;Hometask4 code cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometask6 was started&#10;Hometask4 code cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

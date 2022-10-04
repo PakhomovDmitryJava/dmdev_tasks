@@ -19,47 +19,61 @@ public class Atm {
         this.note100 = note100;
     }
 
-    public void addNote20(Atm atm, int numberOfTwenties) {
-        atm.setNote20(atm.getNote20() + numberOfTwenties);
+    public void addNote20(int numberOfTwenties) {
+        this.note20 += numberOfTwenties;
     }
 
-    public void addNote50(Atm atm, int numberOfFifties) {
-        atm.setNote20(atm.getNote50() + numberOfFifties);
+    public void addNote50(int numberOfFifties) {
+        this.note50 += numberOfFifties;
     }
 
-    public void addNote100(Atm atm, int numberOfHundred) {
-        atm.setNote20(atm.getNote100() + numberOfHundred);
+    public void addNote100(int numberOfHundred) {
+        this.note100 += numberOfHundred;
     }
 
     public boolean cashWithdrawal(int cashToWithdrawal) {
         int cash = cashToWithdrawal;
-
+        boolean check;
         if (cashToWithdrawal > countMoneyInAtm() || cashToWithdrawal % 10 != 0 || cashToWithdrawal == 0) {
             return false;
         }
 
         int note100ToWithdrawal = cash / 100;
-        if (note100ToWithdrawal <= note100) {
+        if (cash / 100 <= note100) {
             cash = cash % 100;
             setNote100(note100 - note100ToWithdrawal);
+            check = true;
+        } else {
+            check = false;
         }
 
         int note50ToWithdrawal = cash / 50;
-        if (note50ToWithdrawal <= getNote50() && cash % 20 != 0) {
+        if (note50ToWithdrawal <= getNote50() && (cash % 100 == 70 || cash % 100 == 90)) {
+
             cash %= 50;
             setNote50(note50 - note50ToWithdrawal);
+            check = true;
         } else {
-            return false;
+            note50ToWithdrawal = 0;
+            check = false;
         }
 
         int note20ToWithdrawal = cash / 20;
         if (note20ToWithdrawal <= getNote20()) {
-            System.out.println("20  - " + note20ToWithdrawal);
+
             cash %= 20;
             setNote20(note20 - note20ToWithdrawal);
+            check = true;
+        } else {
+            check = false;
         }
 
-        return true;
+        if (check) {
+            System.out.println("100 - " + note100ToWithdrawal);
+            System.out.println("50  - " + note50ToWithdrawal);
+            System.out.println("20  - " + note20ToWithdrawal);
+        }
+        return check;
     }
 
     public int countMoneyInAtm() {
