@@ -1,7 +1,7 @@
 package com.dmdev.hometask7;
 
 public abstract class Planet extends SpaceObject   {
-    boolean isInhabited;
+    private boolean isInhabited;
 
     public Planet(String name, long mass, long radius, boolean isInhabited) {
         super(name, mass, radius);
@@ -21,9 +21,9 @@ public abstract class Planet extends SpaceObject   {
     public String toString() {
         return "Planet{" +
                 "isInhabited=" + isInhabited +
-                ", name='" + name + '\'' +
-                ", mass=" + mass +
-                ", radius=" + radius +
+                ", name='" + getName() + '\'' +
+                ", mass=" + getMass() +
+                ", radius=" + getRadius() +
                 '}';
     }
 

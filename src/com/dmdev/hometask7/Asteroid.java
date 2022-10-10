@@ -20,9 +20,9 @@ public class Asteroid extends Meteoroid {
     public String toString() {
         return "Asteroid{" +
                 "starOrbit=" + starOrbit +
-                ", name='" + name + '\'' +
-                ", mass=" + mass +
-                ", radius=" + radius +
+                ", name='" + getName() + '\'' +
+                ", mass=" + getMass() +
+                ", radius=" + getRadius() +
                 '}';
     }
 }

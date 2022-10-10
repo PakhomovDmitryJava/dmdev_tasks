@@ -1,9 +1,9 @@
 package com.dmdev.hometask7;
 
 public abstract class SpaceObject implements Shining, Rotating {
-    String name;
-    long mass;
-    long radius;
+    private String name;
+    private long mass;
+    private long radius;
 
 
 

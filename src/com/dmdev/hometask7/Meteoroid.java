@@ -8,9 +8,9 @@ public abstract class Meteoroid extends SpaceObject {
     @Override
     public String toString() {
         return "Meteoroid{" +
-                "name='" + name + '\'' +
-                ", mass=" + mass +
-                ", radius=" + radius +
+                "name='" + getName() + '\'' +
+                ", mass=" + getMass() +
+                ", radius=" + getRadius() +
                 '}';
     }
 }

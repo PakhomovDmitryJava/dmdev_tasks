@@ -13,6 +13,6 @@ public class AtmRunner {
         atm.addNote20(1000);
         atm.addNote50(1000);
         atm.addNote100(1000);
-        atm.cashWithdrawal(170);
+        atm.cashWithdrawal(230);
     }
 }

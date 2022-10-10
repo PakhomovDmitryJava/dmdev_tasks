@@ -1,7 +1,7 @@
 package com.dmdev.hometask7;
 
 public abstract class Star extends SpaceObject {
-    boolean isShining;
+    private boolean isShining;
 
     public Star(String name, long mass, long radius, boolean isShining) {
         super(name, mass, radius);
@@ -25,9 +25,9 @@ public abstract class Star extends SpaceObject {
     public String toString() {
         return "Star{" +
                 "isShining=" + isShining +
-                ", name='" + name + '\'' +
-                ", mass=" + mass +
-                ", radius=" + radius +
+                ", name='" + getName() + '\'' +
+                ", mass=" + getMass() +
+                ", radius=" + getRadius() +
                 '}';
     }
 }

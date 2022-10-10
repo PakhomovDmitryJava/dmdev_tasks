@@ -39,34 +39,34 @@ public class Atm {
         }
 
         int note100ToWithdrawal = cash / 100;
+        int note50ToWithdrawal = 0;
+        int note20ToWithdrawal = 0;
         if (cash / 100 <= note100) {
             cash = cash % 100;
             setNote100(note100 - note100ToWithdrawal);
-            check = true;
+            note50ToWithdrawal = cash / 50;
+            if (note50ToWithdrawal <= getNote50() && (cash % 100 == 70 || cash % 100 == 90)) {
+
+                cash %= 50;
+                setNote50(note50 - note50ToWithdrawal);
+                check = true;
+                note20ToWithdrawal = cash / 20;
+                if (note20ToWithdrawal <= getNote20()) {
+
+                    cash %= 20;
+                    setNote20(note20 - note20ToWithdrawal);
+                    check = true;
+                } else {
+                    check = false;
+                }
+            } else {
+                note50ToWithdrawal = 0;
+                check = false;
+            }
         } else {
             check = false;
         }
 
-        int note50ToWithdrawal = cash / 50;
-        if (note50ToWithdrawal <= getNote50() && (cash % 100 == 70 || cash % 100 == 90)) {
-
-            cash %= 50;
-            setNote50(note50 - note50ToWithdrawal);
-            check = true;
-        } else {
-            note50ToWithdrawal = 0;
-            check = false;
-        }
-
-        int note20ToWithdrawal = cash / 20;
-        if (note20ToWithdrawal <= getNote20()) {
-
-            cash %= 20;
-            setNote20(note20 - note20ToWithdrawal);
-            check = true;
-        } else {
-            check = false;
-        }
 
         if (check) {
             System.out.println("100 - " + note100ToWithdrawal);
