@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask6 was started&#10;Hometask4 code cleanup">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="Hometask6">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Asteroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/ColdPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/EarthLikePlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/GiantPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/GiantStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/HotPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteoroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Rotating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Shining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SubGiantStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SuperGiantStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/hometask.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Countable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/IsoscelesTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/RightTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Round.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/ShapeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/ShapeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/SpaceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/Describable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/EnumRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/ProcessorType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +55,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,13 +91,13 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.dmdev.hometask6.AtmRunner">
-    <configuration name="HomeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask4.HomeRunner" />
+  <component name="RunManager" selected="Application.SpaceRunner">
+    <configuration name="BattleGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson15.task.BattleGround" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask4.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson15.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HometaskAlone31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone31" />
+    <configuration name="ShapeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson15.hometask.ShapeRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask3.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson15.hometask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HometaskAlone32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone32" />
+    <configuration name="SpaceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask7.SpaceRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask3.*" />
+          <option name="PATTERN" value="com.dmdev.hometask7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HometaskAlone33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask3.HometaskAlone33" />
+    <configuration name="com.dmdev.oop.lesson15.task.TrainingGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson15.task.TrainingGround" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask3.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson15.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.hometask6.AtmRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask6.AtmRunner" />
+    <configuration name="com.dmdev.oop.lesson16.EnumRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson16.EnumRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask6.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.dmdev.hometask6.AtmRunner" />
-        <item itemvalue="Application.HomeRunner" />
-        <item itemvalue="Application.HometaskAlone33" />
-        <item itemvalue="Application.HometaskAlone32" />
-        <item itemvalue="Application.HometaskAlone31" />
+        <item itemvalue="Application.SpaceRunner" />
+        <item itemvalue="Application.ShapeRunner" />
+        <item itemvalue="Application.com.dmdev.oop.lesson16.EnumRunner" />
+        <item itemvalue="Application.com.dmdev.oop.lesson15.task.TrainingGround" />
+        <item itemvalue="Application.BattleGround" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +179,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="36510000" />
+      <workItem from="1664779744409" duration="101627000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -314,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664829558920</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Hometask6">
+      <created>1664922573167</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664922573167</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +399,8 @@
     <MESSAGE value="Code clean and work on bugs: HometaskAlone31, 32" />
     <MESSAGE value="Code cleanup: HometaskAlone33" />
     <MESSAGE value="Hometask6 was started&#10;Hometask4 code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hometask6 was started&#10;Hometask4 code cleanup" />
+    <MESSAGE value="Hometask6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometask6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,6 +414,11 @@
           <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java</url>
           <line>43</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceUtils.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

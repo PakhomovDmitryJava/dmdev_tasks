@@ -1,6 +1,6 @@
 package com.dmdev.oop.lesson11;
 
-public class Computer {
+public abstract class Computer implements Printable {
     private Ssd ssd;
     private Ram ram;
 
@@ -9,7 +9,29 @@ public class Computer {
         this.ram = ram;
     }
 
-    public void load() {
-        System.out.println("I'm loaded!");
+    public Computer() {
+    }
+
+    @Override
+    public void print() {
+        System.out.println("SSD: " + ssd.getValue() + ", RAM: " + ram.getValue());
+    }
+
+    public abstract void load();
+
+    public Ssd getSsd() {
+        return ssd;
+    }
+
+    public void setSsd(Ssd ssd) {
+        this.ssd = ssd;
+    }
+
+    public Ram getRam() {
+        return ram;
+    }
+
+    public void setRam(Ram ram) {
+        this.ram = ram;
     }
 }
