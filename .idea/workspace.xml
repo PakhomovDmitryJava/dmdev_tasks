@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="some changes in Hometask 6,7&#10;new lessons was added">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/WeaponRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/MagicWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/MeleeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/RangeWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Wand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/PairRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/PairUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask8/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask8/ChatRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask8/ChatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/ArrayListRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask1/MarkLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask1/MarkLengthUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/StudentsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/StudentsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/map/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/map/SortExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/person/PersonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteoroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteoroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask7/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +69,13 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PairRunner">
-    <configuration name="AtmRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask6.AtmRunner" />
+  <component name="RunManager" selected="Application.ChatRunner">
+    <configuration name="ChatRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask8.ChatRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask6.*" />
+          <option name="PATTERN" value="com.dmdev.hometask8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson18.hometask.PairRunner" />
+    <configuration name="MarkLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson6.oop.lesson19.hometask1.MarkLength" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson18.hometask.*" />
+          <option name="PATTERN" value="com.dmdev.lesson6.oop.lesson19.hometask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson15.hometask.ShapeRunner" />
+    <configuration name="StudentsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.hometask2.StudentsRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson15.hometask.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson19.hometask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpaceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask7.SpaceRunner" />
+    <configuration name="com.dmdev.lesson6.oop.lesson19.hometask2.StudentsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson6.oop.lesson19.hometask2.StudentsRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask7.*" />
+          <option name="PATTERN" value="com.dmdev.lesson6.oop.lesson19.hometask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaponRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson15.task.WeaponRunner" />
+    <configuration name="com.dmdev.lesson6.oop.lesson19.map.SortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.lesson6.oop.lesson19.map.SortExample" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson15.task.*" />
+          <option name="PATTERN" value="com.dmdev.lesson6.oop.lesson19.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PairRunner" />
-        <item itemvalue="Application.WeaponRunner" />
-        <item itemvalue="Application.AtmRunner" />
-        <item itemvalue="Application.SpaceRunner" />
-        <item itemvalue="Application.ShapeRunner" />
+        <item itemvalue="Application.ChatRunner" />
+        <item itemvalue="Application.StudentsRunner" />
+        <item itemvalue="Application.com.dmdev.lesson6.oop.lesson19.hometask2.StudentsRunner" />
+        <item itemvalue="Application.com.dmdev.oop.lesson19.hometask1.MarkLength" />
+        <item itemvalue="Application.com.dmdev.lesson6.oop.lesson19.map.SortExample" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +157,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="117297000" />
+      <workItem from="1664779744409" duration="147912000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -349,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665398208933</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="some changes in Hometask 6,7&#10;new lessons was added">
+      <created>1665438039824</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665438039824</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +408,15 @@
           <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java</url>
           <line>43</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/List.java</url>
+          <line>268</line>
+          <properties class="java.util.List" method="add">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
