@@ -1,4 +1,4 @@
-package com.dmdev.hometask8;
+package com.dmdev.hometask8.task1;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -19,7 +19,7 @@ public final class ChatUtil {
     public static ArrayList<Chat> deleteLessThan1000(ArrayList<Chat> chats) {
         ListIterator<Chat> listIterator = chats.listIterator();
         while (listIterator.hasNext()) {
-            if (listIterator.next().getUsersCount() < 1000) {
+            if (listIterator.next().getUsersCount() < COUNTER) {
                 listIterator.remove();
             }
         }

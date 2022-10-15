@@ -1,8 +1,6 @@
-package com.dmdev.hometask8;
+package com.dmdev.hometask8.task1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Дан список чатов.
@@ -24,21 +22,28 @@ public class ChatRunner {
         chats.add(new Chat("E", 1011));
         chats.add(new Chat("A", 1011));
         chats.add(new Chat("G", 5124));
-        ChatUtil.compareNames(chats);
-        for (Chat chat : chats) {
-            System.out.println(chat);
-        }
-        System.out.println();
-        ChatUtil.compareCountOfUsersAndNames(chats);
-        for (Chat chat : chats) {
-            System.out.println(chat);
-        }
-        System.out.println();
+
+
         ArrayList<Chat> chatsResult = ChatUtil.deleteLessThan1000(chats);
         for (Chat chat : chatsResult) {
             System.out.println(chat);
         }
 
+        System.out.println();
+
+        ChatUtil.compareCountOfUsersAndNames(chats);
+        for (Chat chat : chats) {
+            System.out.println(chat);
+        }
+
+        System.out.println();
+
+        ChatUtil.compareNames(chats);
+        for (Chat chat : chats) {
+            System.out.println(chat);
+        }
+
+        System.out.println();
 
     }
 }

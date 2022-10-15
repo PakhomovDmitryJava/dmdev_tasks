@@ -1,6 +1,5 @@
-package com.dmdev.hometask8;
+package com.dmdev.hometask8.task1;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 /**
@@ -13,8 +12,8 @@ import java.util.Objects;
  * - Также предоставить сортировку чатов по названию по умолчанию.
  */
 public class Chat {
-    String name;
-    int usersCount;
+    private String name;
+    private int usersCount;
 
     public Chat(String name, int usersCount) {
         this.name = name;

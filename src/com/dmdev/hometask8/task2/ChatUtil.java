@@ -1,0 +1,58 @@
+package com.dmdev.hometask8.task2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Random;
+
+/**
+ * Дан список чатов с предыдущего задания,
+ * только вместо поля “количество пользователей” будет список объектов типа Пользователь,
+ * который имеет 3 поля: id (целочисленный идентификатор), имя и возраст.
+ * Задача:
+ * - Преобразовать список чатов в один список пользователей всех чатов,
+ * возраст которых больше 18 лет
+ * - С помощью итератора посчитать средний возраст всех оставшихся пользователей.
+ */
+public final class ChatUtil {
+    static final int AGE_LIMIT = 18;
+
+    public static ArrayList<User> allUsersList(ArrayList<Chat> chats) {
+        ArrayList<User> usersFromChat;
+        ArrayList<User> allUsers = new ArrayList<>();
+        for (Chat chat : chats) {
+            usersFromChat = (ArrayList<User>) chat.getUsers();
+            allUsers.addAll(usersFromChat);
+        }
+        return allUsers;
+    }
+
+    public static String getRandomString(int length) {
+        String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        Random random = new Random();
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < length; i++) {
+            int number = random.nextInt(52);
+            sb.append(str.charAt(number));
+        }
+        return sb.toString();
+    }
+
+    public static ArrayList<User> listOfAdultUsers(ArrayList<Chat> chats) {
+        ArrayList<User> adultUsers = ChatUtil.allUsersList(chats);
+        Iterator<User> iterator = adultUsers.iterator();
+        while (iterator.hasNext()) {
+            if (iterator.next().getAge() < 18) {
+                iterator.remove();
+            }
+        }
+        return adultUsers;
+    }
+
+    public static double averageUsersAge(ArrayList<User> users) {
+        double ages = 0;
+        for (User user : users) {
+            ages += user.getAge();
+        }
+        return ages / users.size();
+    }
+}
