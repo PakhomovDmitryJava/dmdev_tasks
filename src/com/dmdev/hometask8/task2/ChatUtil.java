@@ -14,7 +14,7 @@ import java.util.Random;
  * - С помощью итератора посчитать средний возраст всех оставшихся пользователей.
  */
 public final class ChatUtil {
-    static final int AGE_LIMIT = 18;
+    private static final int AGE_LIMIT = 18;
 
     public static ArrayList<User> allUsersList(ArrayList<Chat> chats) {
         ArrayList<User> usersFromChat;

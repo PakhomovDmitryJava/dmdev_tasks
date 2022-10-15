@@ -14,7 +14,7 @@ import java.util.ListIterator;
  * - Также предоставить сортировку чатов по названию по умолчанию.
  */
 public final class ChatUtil {
-    static final int COUNTER = 1000;
+    private static final int COUNTER = 1000;
 
     public static ArrayList<Chat> deleteLessThan1000(ArrayList<Chat> chats) {
         ListIterator<Chat> listIterator = chats.listIterator();
