@@ -5,20 +5,10 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;Hometask8 part 2, code cleanup">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/Hometask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/GarageRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Hybrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Sportcar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task4.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;lesson19 hometask4">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/Hometask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +62,13 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GarageRunner">
-    <configuration name="GarageRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.hometask4.GarageRunner" />
+  <component name="RunManager" selected="Application.EnglishTextRunner">
+    <configuration name="EnglishTextRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.hometask3.EnglishTextRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson19.hometask4.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson19.hometask3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.task.Task1" />
+    <configuration name="GarageRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.hometask4.GarageRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson19.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson19.hometask4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnglishTextRunner" />
         <item itemvalue="Application.GarageRunner" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +150,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="185293000" />
+      <workItem from="1664779744409" duration="189676000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -386,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665849134008</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="&#10;lesson19 hometask4">
+      <created>1665918119260</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665918119260</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homework_1" />
     <MESSAGE value="Homework2_3" />
     <MESSAGE value="lesson 7" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_1" />
@@ -429,7 +425,8 @@
     <MESSAGE value="Hometask8 part2" />
     <MESSAGE value="&#10;Hometask8 part 2 changes" />
     <MESSAGE value="&#10;Hometask8 part 2, code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Hometask8 part 2, code cleanup" />
+    <MESSAGE value="&#10;lesson19 hometask4" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;lesson19 hometask4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
