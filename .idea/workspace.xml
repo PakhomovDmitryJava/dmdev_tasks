@@ -5,13 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;lesson19 hometask3">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;hometask9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +146,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="225136000" />
+      <workItem from="1664779744409" duration="226030000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -392,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665925646937</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="&#10;hometask8">
+      <created>1666008767959</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008767959</updated>
+    </task>
+    <task id="LOCAL-00036" summary="&#10;hometask9">
+      <created>1666008810855</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008810855</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,8 +418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 7" />
-    <MESSAGE value="lesson 7&#10;Hometask_alone3_1" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_2" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_3" />
     <MESSAGE value="Hometask4" />
@@ -435,7 +441,9 @@
     <MESSAGE value="&#10;Hometask8 part 2, code cleanup" />
     <MESSAGE value="&#10;lesson19 hometask4" />
     <MESSAGE value="&#10;lesson19 hometask3" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;lesson19 hometask3" />
+    <MESSAGE value="&#10;hometask8" />
+    <MESSAGE value="&#10;hometask9" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;hometask9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
