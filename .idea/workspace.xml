@@ -5,10 +5,12 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;lesson19 hometask4">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextUtil.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="&#10;lesson19 hometask3">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask9/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/Hometask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,20 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnglishTextRunner">
+  <component name="RunManager" selected="Application.CinemaRunner">
+    <configuration name="CinemaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask9.CinemaRunner" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.hometask9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EnglishTextRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.hometask3.EnglishTextRunner" />
       <module name="dmdev_tasks" />
@@ -82,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dmdev.oop.lesson19.hometask4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson19.task.Task2" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson19.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CinemaRunner" />
         <item itemvalue="Application.EnglishTextRunner" />
         <item itemvalue="Application.GarageRunner" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,7 @@
       <workItem from="1662974982146" duration="57554000" />
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
-      <workItem from="1664779744409" duration="189676000" />
+      <workItem from="1664779744409" duration="225136000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -383,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665918119260</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="&#10;lesson19 hometask3">
+      <created>1665925646937</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665925646937</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homework2_3" />
     <MESSAGE value="lesson 7" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_1" />
     <MESSAGE value="lesson 7&#10;Hometask_alone3_2" />
@@ -426,7 +434,8 @@
     <MESSAGE value="&#10;Hometask8 part 2 changes" />
     <MESSAGE value="&#10;Hometask8 part 2, code cleanup" />
     <MESSAGE value="&#10;lesson19 hometask4" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;lesson19 hometask4" />
+    <MESSAGE value="&#10;lesson19 hometask3" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;lesson19 hometask3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,6 +452,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="films.get(6)" />
+        <watch expression="films.get(2)" />
+        <watch expression="results.get(1)" />
+        <watch expression="results" />
+        <watch expression="films" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dmdev_tasks$Hometask_alone2_3.ic" NAME="Hometask_alone2_3 Coverage Results" MODIFIED="1662979125497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
