@@ -2,7 +2,8 @@ package com.dmdev.hometask8.task2;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Random;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Дан список чатов с предыдущего задания,
@@ -14,35 +15,33 @@ import java.util.Random;
  * - С помощью итератора посчитать средний возраст всех оставшихся пользователей.
  */
 public final class ChatUtil {
-    private static final int AGE_LIMIT = 18;
-
     public static ArrayList<User> allUsersList(ArrayList<Chat> chats) {
-        ArrayList<User> usersFromChat;
+        List<User> usersFromChat;
         ArrayList<User> allUsers = new ArrayList<>();
         for (Chat chat : chats) {
-            usersFromChat = (ArrayList<User>) chat.getUsers();
+            usersFromChat =  chat.getUsers();
             allUsers.addAll(usersFromChat);
         }
         return allUsers;
     }
 
     public static String getRandomString(int length) {
-        String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        Random random = new Random();
+        final String str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        ThreadLocalRandom random = ThreadLocalRandom.current();
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < length; i++) {
-            int number = random.nextInt(52);
+            int number = random.nextInt(str.length());
             sb.append(str.charAt(number));
         }
         return sb.toString();
     }
 
-    public static ArrayList<User> listOfAdultUsers(ArrayList<Chat> chats) {
-        ArrayList<User> adultUsers = ChatUtil.allUsersList(chats);
-        Iterator<User> iterator = adultUsers.iterator();
-        while (iterator.hasNext()) {
-            if (iterator.next().getAge() < 18) {
-                iterator.remove();
+    public static ArrayList<User> listOfAdultUsers(ArrayList<Chat> chats, int age) {
+        ArrayList<User> allUsersList = ChatUtil.allUsersList(chats);
+        ArrayList<User> adultUsers = new ArrayList<>();
+        for (User user : allUsersList) {
+            if (user.getAge() >= age) {
+                adultUsers.add(user);
             }
         }
         return adultUsers;

@@ -1,6 +1,8 @@
 package com.dmdev.hometask9;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -21,20 +23,24 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class CinemaRunner {
     public static void main(String[] args) {
-        List<String> genres = List.of("Drama", "Biopic", "Comedy", "Western", "Thriller", "Adventure", "Sci-Fi", "Art-house", "Melodrama");
+        Genre[] genres = Genre.values();
+        Month[] months = Month.values();
         ArrayList<Film> films = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
 
             Film newFilm = new Film(ThreadLocalRandom.current().nextInt() * 31,
                     ThreadLocalRandom.current().nextInt(2000, 2022),
-                    ThreadLocalRandom.current().nextInt(1, 12),
-                    genres.get(ThreadLocalRandom.current().nextInt(0, 8)),
+                    months[ThreadLocalRandom.current().nextInt(0, 12)].toString(),
+                    genres[ThreadLocalRandom.current().nextInt(0, 9)].toString(),
                     CinemaUtil.round(ThreadLocalRandom.current().nextDouble(5, 10), 2));
             films.add(newFilm);
         }
-        Film newFilm1 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2000, 3, genres.get(1), 10);
-        Film newFilm2 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2000, 3, genres.get(2), 10);
-        Film newFilm3 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2000, 3, genres.get(3), 10);
+        Film newFilm1 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2023, months[1].toString(), genres[1].toString(), 10);
+        Film newFilm2 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2023, months[2].toString(), genres[2].toString(), 10);
+        Film newFilm3 = new Film(ThreadLocalRandom.current().nextInt() * 31, 2023, months[3].toString(), genres[3].toString(), 10);
+
+
+        System.out.println(newFilm1 + "\n" + newFilm2 + "\n" + newFilm3 + "\n");
 
 
         Cinema cinema = new Cinema(CinemaUtil.linkedHashMapFilms(films));
@@ -69,20 +75,20 @@ public class CinemaRunner {
 
         System.out.println();
 
-        for (Film film : cinema.getFilmsByYearAndMonth(2000, 3)) {
+        for (Film film : cinema.getFilmsByYearAndMonth(2000, months[3].toString())) {
             System.out.println(film);
         }
 
         System.out.println();
 
-        for (Film film : cinema.getFilmsByGenre(genres.get(1))) {
+        for (Film film : cinema.getFilmsByGenre(genres[1].toString())) {
             System.out.println(film);
         }
 
         System.out.println();
 
         int counter = 1;
-        for (Film film : cinema.getTop10FilmsByRating()) {
+        for (Film film : cinema.getTop10FilmsByRating(10)) {
             System.out.println(counter + " - " + film);
             counter++;
         }

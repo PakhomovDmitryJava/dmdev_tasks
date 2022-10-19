@@ -1,6 +1,13 @@
 package com.dmdev.hometask9;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
 
 /**
  * Даны 2 класса:
@@ -25,11 +32,10 @@ public class Cinema {
         this.filmsSortedByYear = filmsSortedByYear;
     }
 
-    public ArrayList<Film> getAllFilms() {
-        ArrayList<Film> allFilms = new ArrayList<>();
-        Set<Integer> set = filmsSortedByYear.keySet();
-        for (Integer integer : set) {
-            allFilms.addAll(getFilmsByYear(integer));
+    public Set<Film> getAllFilms() {
+        Set<Film> allFilms = new HashSet<>();
+        for (ArrayList<Film> films : filmsSortedByYear.values()) {
+            allFilms.addAll(films);
         }
         return allFilms;
     }
@@ -37,6 +43,10 @@ public class Cinema {
     public void addNewFilm(Film film) {
         if (getAllFilms().contains(film)) {
             System.out.println("This film is already exist in the cinema!\n");
+        } else if (!filmsSortedByYear.containsKey(film.getYear())) {
+            ArrayList<Film> newFilms = new ArrayList<>(1);
+            newFilms.add(film);
+            filmsSortedByYear.put(film.getYear(), newFilms);
         } else {
             filmsSortedByYear.get(film.getYear()).add(film);
         }
@@ -46,11 +56,11 @@ public class Cinema {
         return filmsSortedByYear.get(year);
     }
 
-    public ArrayList<Film> getFilmsByYearAndMonth(Integer year, int month) {
+    public ArrayList<Film> getFilmsByYearAndMonth(Integer year, String month) {
         ArrayList<Film> byYear = getFilmsByYear(year);
         ArrayList<Film> byYearAndMoth = new ArrayList<>();
         for (Film film : byYear) {
-            if (film.getMonth() == month) {
+            if (Objects.equals(film.getMonth(), month)) {
                 byYearAndMoth.add(film);
             }
         }
@@ -59,9 +69,9 @@ public class Cinema {
 
     public ArrayList<Film> getFilmsByGenre(String genre) {
         ArrayList<Film> byGenre = new ArrayList<>();
-        Set<Integer> set = filmsSortedByYear.keySet();
-        for (Integer integer : set) {
-            for (Film film : getFilmsByYear(integer)) {
+
+        for (Map.Entry<Integer, ArrayList<Film>> entry : filmsSortedByYear.entrySet()) {
+            for (Film film : entry.getValue()) {
                 if (film.getGenre().equals(genre)) {
                     byGenre.add(film);
                 }
@@ -70,11 +80,10 @@ public class Cinema {
         return byGenre;
     }
 
-    public ArrayList<Film> getTop10FilmsByRating() {
-        ArrayList<Film> allFilms = getAllFilms();
+    public ArrayList<Film> getTop10FilmsByRating(int topLimit) {
+        ArrayList<Film> allFilms = new ArrayList<>(getAllFilms());
         allFilms.sort(Comparator.comparing(Film::getRating).reversed());
-        int TOP_10 = 10;
-        return new ArrayList<>(allFilms.subList(0, TOP_10));
+        return new ArrayList<>(allFilms.subList(0, topLimit));
     }
 
 
@@ -106,3 +115,4 @@ public class Cinema {
         this.filmsSortedByYear = filmsSortedByYear;
     }
 }
+

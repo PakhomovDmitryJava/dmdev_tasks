@@ -19,7 +19,7 @@ public class ChatRunner {
 
         ArrayList<User> users = new ArrayList<>();
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 30; i++) {
             User user = new User(i + 1, ChatUtil.getRandomString(NAME_LENGTH), ThreadLocalRandom.current().nextInt(MIN_AGE, MAX_AGE));
             users.add(user);
         }
@@ -32,14 +32,13 @@ public class ChatRunner {
         for (int i = 0; i < 100; i++) {
             Chat chat = new Chat(ChatUtil.getRandomString(NAME_LENGTH), users);
             chats.add(chat);
-
         }
 
         System.out.println(chats.size());
         System.out.println(chats);
         System.out.println();
 
-        ArrayList<User> allUsers = ChatUtil.listOfAdultUsers(chats);
+        ArrayList<User> allUsers = ChatUtil.listOfAdultUsers(chats, 18);
         System.out.println(allUsers.size());
         for (User user : allUsers) {
             System.out.println(user);

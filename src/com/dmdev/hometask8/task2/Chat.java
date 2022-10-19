@@ -14,9 +14,9 @@ import java.util.Objects;
  */
 public class Chat {
     private String chatName;
-    private ArrayList<User> users;
+    private List<User> users;
 
-    public Chat(String chatName, ArrayList<User> users) {
+    public Chat(String chatName, List<User> users) {
         this.chatName = chatName;
         this.users = users;
     }
@@ -54,7 +54,7 @@ public class Chat {
         return users;
     }
 
-    public void setUsers(ArrayList<User> users) {
+    public void setUsers(List<User> users) {
         this.users = users;
     }
 }

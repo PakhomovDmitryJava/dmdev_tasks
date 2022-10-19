@@ -24,17 +24,17 @@ public class ChatRunner {
         chats.add(new Chat("G", 5124));
 
 
-        ArrayList<Chat> chatsResult = ChatUtil.deleteLessThan1000(chats);
-        for (Chat chat : chatsResult) {
+        ChatUtil.deleteByUsersCountLessThen(chats, 1000);
+        for (Chat chat : chats) {
             System.out.println(chat);
         }
 
         System.out.println();
 
-        ChatUtil.compareCountOfUsersAndNames(chats);
-        for (Chat chat : chats) {
-            System.out.println(chat);
-        }
+//        ChatUtil.compareCountOfUsersAndNames(chats);
+//        for (Chat chat : chats) {
+//            System.out.println(chat);
+//        }
 
         System.out.println();
 

@@ -21,11 +21,11 @@ import java.util.Objects;
 public class Film {
     private int id;
     private int year;
-    private int month;
+    private String month;
     private String genre;
     private double rating;
 
-    public Film(int id, int year, int month, String genre, double rating) {
+    public Film(int id, int year, String month, String genre, double rating) {
         this.id = id;
         this.year = year;
         this.month = month;
@@ -38,7 +38,7 @@ public class Film {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Film film = (Film) o;
-        return id == film.id && year == film.year && month == film.month && Double.compare(film.rating, rating) == 0 && Objects.equals(genre, film.genre);
+        return id == film.id && year == film.year && Objects.equals(month, film.month) && Double.compare(film.rating, rating) == 0 && Objects.equals(genre, film.genre);
     }
 
     @Override
@@ -73,11 +73,11 @@ public class Film {
         this.year = year;
     }
 
-    public int getMonth() {
+    public String getMonth() {
         return month;
     }
 
-    public void setMonth(int month) {
+    public void setMonth(String month) {
         this.month = month;
     }
 

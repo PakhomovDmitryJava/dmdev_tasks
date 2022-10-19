@@ -14,19 +14,17 @@ import java.util.ListIterator;
  * - Также предоставить сортировку чатов по названию по умолчанию.
  */
 public final class ChatUtil {
-    private static final int COUNTER = 1000;
 
-    public static ArrayList<Chat> deleteLessThan1000(ArrayList<Chat> chats) {
+    public static void deleteByUsersCountLessThen(ArrayList<Chat> chats, int bound) {
         ListIterator<Chat> listIterator = chats.listIterator();
         while (listIterator.hasNext()) {
-            if (listIterator.next().getUsersCount() < COUNTER) {
+            if (listIterator.next().getUsersCount() < bound) {
                 listIterator.remove();
             }
         }
-        return chats;
     }
 
-    public static ArrayList<Chat> compareCountOfUsersAndNames(ArrayList<Chat> chats) {
+    public static ArrayList<Chat> sortByCountOfUsersAndNames(ArrayList<Chat> chats) {
         chats.sort(Comparator.comparing(Chat::getUsersCount).reversed().thenComparing(Chat::getName));
         return chats;
     }
