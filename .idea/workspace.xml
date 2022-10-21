@@ -5,15 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask9 some changes after mentor's comment">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/MapReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Test3.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson21 task5 was started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +152,7 @@
       <workItem from="1663181411006" duration="18769000" />
       <workItem from="1663317459532" duration="21560000" />
       <workItem from="1664779744409" duration="249784000" />
-      <workItem from="1666261829560" duration="12971000" />
+      <workItem from="1666261829560" duration="13848000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -428,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666221371964</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="lesson21 task5 was started">
+      <created>1666297309394</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666297309395</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hometask4" />
     <MESSAGE value="Hometask4 was started" />
     <MESSAGE value="Hometask4 was started&#10;Mentor's comments" />
     <MESSAGE value="Hometask51" />
@@ -471,7 +469,8 @@
     <MESSAGE value="&#10;hometask9" />
     <MESSAGE value="hometask9" />
     <MESSAGE value="hometask9 some changes after mentor's comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask9 some changes after mentor's comment" />
+    <MESSAGE value="lesson21 task5 was started" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson21 task5 was started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
