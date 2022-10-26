@@ -5,18 +5,11 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson21 task5 was started">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/FistName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/LastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentsAverageScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Person.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson21 task5 p.1, p.2">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/FileRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentsAverageScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask10/SortedStudentsAverageScore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,20 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentRunner">
+  <component name="RunManager" selected="Application.FileRunner">
+    <configuration name="FileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.FileRunner" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.MapReduceExample" />
       <module name="dmdev_tasks" />
@@ -101,45 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask10.StudentRunner" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.task1.Task1" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.task1.Task2" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.task1.Task4" />
       <module name="dmdev_tasks" />
@@ -153,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.oop.lesson21.task1.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.task1.Task2" />
+    <configuration name="com.dmdev.hometask10.StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask10.StudentRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.task1.*" />
+          <option name="PATTERN" value="com.dmdev.hometask10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentRunner" />
+        <item itemvalue="Application.FileRunner" />
+        <item itemvalue="Application.com.dmdev.hometask10.StudentRunner" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.MapReduceExample" />
-        <item itemvalue="Application.com.dmdev.oop.lesson21.task1.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +157,7 @@
       <workItem from="1663317459532" duration="21560000" />
       <workItem from="1664779744409" duration="249784000" />
       <workItem from="1666261829560" duration="45427000" />
-      <workItem from="1666553271878" duration="7592000" />
+      <workItem from="1666553271878" duration="11585000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -472,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666336602970</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="lesson21 task5 p.1, p.2">
+      <created>1666561925666</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666561925667</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hometask4 was started" />
     <MESSAGE value="Hometask4 was started&#10;Mentor's comments" />
     <MESSAGE value="Hometask51" />
     <MESSAGE value="Hometask52" />
@@ -515,7 +488,8 @@
     <MESSAGE value="hometask9" />
     <MESSAGE value="hometask9 some changes after mentor's comment" />
     <MESSAGE value="lesson21 task5 was started" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson21 task5 was started" />
+    <MESSAGE value="lesson21 task5 p.1, p.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson21 task5 p.1, p.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

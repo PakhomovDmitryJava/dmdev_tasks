@@ -52,18 +52,26 @@ public final class StudentUtil {
         // Объект с двумя полями:
         // * - Отсортированный список студентов с пункта 2
         // * - Средняя оценка этих студентов
-//    public static Map<Integer, StudentsAverageScore> getListWithFistAndLastNames(List<Student> students) {
-//        Map<Integer, StudentsAverageScore> result = sortStudentsByCoursesAndFullNames(students)
+//    public static Map<Integer, SortedStudentsAverageScore> getListWithFistAndLastNames(List<Student> students) {
+//        Map<Integer, SortedStudentsAverageScore> result = sortStudentsByCoursesAndFullNames(students)
 //                .entrySet()
 //                .stream()
 //                .collect(Collectors.toMap(k -> k.getKey(), v -> v.getValue().stream()
-//                        .map(newObject -> new StudentsAverageScore(getSortedListWithFullNames(students)
+//                        .map(newObject -> new SortedStudentsAverageScore(getSortedListWithFullNames(students)
 //                                .entrySet()
 //                                .stream()
 //                                .map(courseAverage->courseAverage.getValue()))))
 //
 //        return result;
 //    }
+
+//    Map<Integer, Pair<String>> mapOfSortedStudentsAndAverageMarkByCourse3 = students.stream()
+//            .sorted(Comparator.comparing(Student::getName).thenComparing(Student::getSurname))
+//            .collect(groupingBy(Student::getCourse,
+//                    TreeMap::new,
+//                    teeing(
+//                            mapping(student -> student.getName() + " " + student.getSurname(), toList()),
+//                            flatMapping(student -> student.getMarks().stream(), averagingInt(Integer::intValue)),
 
     public static ArrayList<Integer> getListOfRandomScores() {
         ThreadLocalRandom threadLocalRandom = ThreadLocalRandom.current();

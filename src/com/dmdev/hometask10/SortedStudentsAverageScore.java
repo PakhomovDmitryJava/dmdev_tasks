@@ -17,11 +17,11 @@ import java.util.Objects;
  * - Средняя оценка этих студентов
  * Подумать, как ассоциативный массив можно было представить в коде в виде отсортированного - TreeMap
  */
-public class StudentsAverageScore {
+public class SortedStudentsAverageScore {
     private List<Student> sortedListFullNames;
     private double averageScoreOfList;
 
-    public StudentsAverageScore(List<Student> sortedListFullNames, double averageScoreOfList) {
+    public SortedStudentsAverageScore(List<Student> sortedListFullNames, double averageScoreOfList) {
         this.sortedListFullNames = sortedListFullNames;
         this.averageScoreOfList = averageScoreOfList;
     }
@@ -30,7 +30,7 @@ public class StudentsAverageScore {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        StudentsAverageScore that = (StudentsAverageScore) o;
+        SortedStudentsAverageScore that = (SortedStudentsAverageScore) o;
         return Double.compare(that.averageScoreOfList, averageScoreOfList) == 0 && Objects.equals(sortedListFullNames, that.sortedListFullNames);
     }
 
