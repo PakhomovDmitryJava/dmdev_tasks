@@ -6,12 +6,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson22">
+      <change afterPath="$PROJECT_DIR$/resources/code.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/items-name.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/items-price.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/poemResult.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/InputStreamRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/OutputRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/ReaderRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/WriterRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/hometask/Hometask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/hometask/Hometask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/TextRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/EnglishTextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/TextUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/FileRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/FileRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +55,15 @@
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/io/Closeable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/io/InputStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/nio/file/Files.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,36 +76,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java/dmdev/dmdev_tasks/src/com/dmdev/hometask10&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.dmdev.oop.lesson7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\dmdev\dmdev_tasks\resources" />
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask10" />
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileRunner">
-    <configuration name="FileRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.FileRunner" />
+  <component name="RunManager" selected="Application.Hometask2">
+    <configuration name="Hometask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.hometask.Hometask1" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson22.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.hometask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.MapReduceExample" />
+    <configuration name="Hometask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.hometask.Hometask2" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.hometask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.StreamExample" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.tasks.Task3" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +141,11 @@
       </method>
     </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson21.task1.Task4" />
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.tasks.Task4" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson21.task1.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.hometask10.StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask10.StudentRunner" />
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.tasks.Task5" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask10.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileRunner" />
-        <item itemvalue="Application.com.dmdev.hometask10.StudentRunner" />
+        <item itemvalue="Application.Hometask2" />
+        <item itemvalue="Application.Hometask1" />
+        <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.StreamExample" />
-        <item itemvalue="Application.MapReduceExample" />
+        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +190,7 @@
       <workItem from="1663317459532" duration="21560000" />
       <workItem from="1664779744409" duration="249784000" />
       <workItem from="1666261829560" duration="45427000" />
-      <workItem from="1666553271878" duration="11930000" />
+      <workItem from="1666553271878" duration="61236000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -450,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666808596487</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="lesson22">
+      <created>1666808652561</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1666808652561</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,36 +541,34 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java</url>
           <line>17</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java</url>
           <line>43</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson20/ExceptionExample.java</url>
           <line>6</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="films.get(6)" />
-        <watch expression="films.get(2)" />
-        <watch expression="results.get(1)" />
-        <watch expression="results" />
-        <watch expression="films" />
-      </configuration>
-    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dmdev_tasks$Hometask_alone2_3.ic" NAME="Hometask_alone2_3 Coverage Results" MODIFIED="1662979125497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dmdev.hometask2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dmdev_tasks$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1667051735047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dmdev.oop.lesson22.tasks.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/dmdev_tasks$Task3.ic" NAME="Task3 Coverage Results" MODIFIED="1665860039661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.dmdev.oop.lesson19.task.*</FILTER>

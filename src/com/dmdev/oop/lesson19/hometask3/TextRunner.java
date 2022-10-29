@@ -9,7 +9,7 @@ import java.util.List;
  * Для каждого слова подсчитать частоту его встречаемости.
  * Слова, отличающиеся регистром букв, считать различными.
  */
-public class EnglishTextRunner {
+public class TextRunner {
     public static void main(String[] args) {
         String text = "Fruit Fruit Fruit Fruit fruit and vegetables vegetables contain the vitamins and minerals " +
                 "we need to stay healthy. But five is actually a fictional number " +
@@ -19,7 +19,7 @@ public class EnglishTextRunner {
                 "pieces of fruit and vegetables a day are much less likely likely to suffer " +
                 "from heart disease than those who eat three.";
 
-        List<String> words = EnglishTextUtil.textAsList(text);
+        List<String> words = TextUtil.getTextAsListOfWords(text);
 
         System.out.println(words.get(0));
 
@@ -27,12 +27,12 @@ public class EnglishTextRunner {
             System.out.println(string);
         }
 
-        LinkedHashSet<String> uniqueWords = EnglishTextUtil.uniqueWords(words);
+        LinkedHashSet<String> uniqueWords = TextUtil.uniqueWords(words);
         for (String uniqueWord : uniqueWords) {
             System.out.println(uniqueWord);
         }
 
-        EnglishTextUtil.wordsCounter(words);
+        TextUtil.wordsCounter(words);
     }
 
 }
