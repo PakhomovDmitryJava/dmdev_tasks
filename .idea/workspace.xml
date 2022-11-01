@@ -5,7 +5,17 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson 22 finished&#10;hometask11 started" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson 22 finished&#10;hometask11 started">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/items-name.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/items-name.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/items-price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/items-price.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/ReaderRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/ReaderRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,20 +61,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/dmdev/dmdev_tasks/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.dmdev.oop.lesson7" />
@@ -75,7 +85,7 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hometask2">
+  <component name="RunManager" selected="Application.ResultRunner">
     <configuration name="Hometask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.hometask.Hometask1" />
       <module name="dmdev_tasks" />
@@ -102,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.tasks.Task3" />
+    <configuration name="ResultRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask11.ResultRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson22.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.tasks.Task4" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson22.tasks.*" />
+          <option name="PATTERN" value="com.dmdev.hometask11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.WriterRunner" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.oop.lesson22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResultRunner" />
+        <item itemvalue="Application.WriterRunner" />
         <item itemvalue="Application.Hometask2" />
         <item itemvalue="Application.Hometask1" />
         <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +175,8 @@
       <workItem from="1663317459532" duration="21560000" />
       <workItem from="1664779744409" duration="249784000" />
       <workItem from="1666261829560" duration="45427000" />
-      <workItem from="1666553271878" duration="62040000" />
+      <workItem from="1666553271878" duration="66640000" />
+      <workItem from="1667241539124" duration="13269000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -475,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667074709073</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="lesson 22 finished&#10;hometask11 started">
+      <created>1667159132702</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159132702</updated>
+    </task>
+    <task id="LOCAL-00046" summary="lesson 22 finished&#10;hometask11 started">
+      <created>1667159140626</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159140626</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

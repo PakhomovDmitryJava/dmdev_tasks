@@ -5,12 +5,12 @@ import java.util.Objects;
 public class Result {
     private int id;
     private String name;
-    private String price;
+    private double price;
 
     public Result() {
     }
 
-    public Result(int id, String name, String price) {
+    public Result(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -31,11 +31,7 @@ public class Result {
 
     @Override
     public String toString() {
-        return "Result{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price='" + price + '\'' +
-                '}';
+        return id + "," + name + "," + price;
     }
 
     public int getId() {
@@ -54,11 +50,11 @@ public class Result {
         this.name = name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }
