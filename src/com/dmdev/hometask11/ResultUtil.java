@@ -55,22 +55,21 @@ public final class ResultUtil {
         Map<Integer, Item> itemMap = readItemsCSV(pathToItems);
         Map<Integer, Price> priceMap = readPricesCSV(pathToPrices);
         HashMap<Integer, Result> resultCSV = new HashMap<>(itemMap.size() + priceMap.size());
-        itemMap.entrySet()
-                .forEach(item -> {
-                    priceMap.entrySet()
-                            .forEach(price -> {
-                                if (Objects.equals(item.getKey(), price.getKey())) {
-                                    resultCSV.put(item.getKey(), new Result(item.getKey(),
-                                            item.getValue().getName(),
-                                            price.getValue().getPrice()));
-                                }
-                            });
-                });
+        for (Map.Entry<Integer, Item> entry : itemMap.entrySet()) {
+            Integer key = entry.getKey();
+            Item value = entry.getValue();
+            for (Map.Entry<Integer, Price> price : priceMap.entrySet()) {
+                if (Objects.equals(key, price.getKey())) {
+                    resultCSV.put(key, new Result(key,
+                            value.getName(),
+                            price.getValue().getPrice()));
+                }
+            }
+        }
         return resultCSV;
     }
 
     public static void writeResultCSV(Map<Integer, Result> resultMap, Path pathForResult) {
-
         try (BufferedWriter fileWriter = Files.newBufferedWriter(pathForResult)) {
             for (Result resultEntry : resultMap.values()) {
                 fileWriter.append(resultEntry.toString());

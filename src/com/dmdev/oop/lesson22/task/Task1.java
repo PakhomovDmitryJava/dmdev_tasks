@@ -1,4 +1,4 @@
-package com.dmdev.oop.lesson22.tasks;
+package com.dmdev.oop.lesson22.task;
 
 import com.dmdev.oop.lesson19.hometask3.TextUtil;
 
