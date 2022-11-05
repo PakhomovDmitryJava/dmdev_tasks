@@ -5,26 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask11 finished">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson23/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson23/SerializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/DateTimeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/tasks/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task5.java" afterDir="false" />
-    </list>
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson23 and lesson24" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +166,7 @@
       <workItem from="1664779744409" duration="249784000" />
       <workItem from="1666261829560" duration="45427000" />
       <workItem from="1666553271878" duration="66640000" />
-      <workItem from="1667241539124" duration="26999000" />
+      <workItem from="1667241539124" duration="27282000" />
     </task>
     <task id="LOCAL-00001" summary="Homework_1">
       <created>1662648601807</created>
@@ -516,7 +497,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667322964366</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="lesson23 and lesson24">
+      <created>1667511082871</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1667511082871</updated>
+    </task>
+    <task id="LOCAL-00049" summary="lesson23 and lesson24">
+      <created>1667511157198</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1667511157198</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hometask4&#10;Added description to class HomeRunner" />
     <MESSAGE value="lesson11 and Hometask1 about Point and Rectangle and  for this lesson" />
     <MESSAGE value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
     <MESSAGE value="Code clean and work on bugs: HometaskAlone23" />
@@ -559,7 +553,8 @@
     <MESSAGE value="lesson22" />
     <MESSAGE value="lesson 22 finished&#10;hometask11 started" />
     <MESSAGE value="hometask11 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask11 finished" />
+    <MESSAGE value="lesson23 and lesson24" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson23 and lesson24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
