@@ -5,7 +5,39 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson23 and lesson24" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson23 and lesson24">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/SimpleRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/SimpleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/AccountDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/AccountThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/CounterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/CounterThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/ListThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/ConsumerRobotDetailsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/CrazyScientist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/HometaskRobotsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/ProducerRobotDetailsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/RandomDetailsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/RobotDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/immutable/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/immutable/ExampleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/list/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/BuyerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/Cashbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/CashboxRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/ConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/ProducerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/RandomDetailsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/TaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/volat/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,20 +83,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/dmdev/dmdev_tasks/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.dmdev.oop.lesson7" />
@@ -75,13 +107,13 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task7">
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson24.task.Task6" />
+  <component name="RunManager" selected="Application.HometaskRobotsDemo">
+    <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.account.AccountDemo" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson24.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson25.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson24.task.Task7" />
+    <configuration name="CashboxRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.queue.CashboxRunner" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson24.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson25.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson24.task.Task8" />
+    <configuration name="HometaskRobotsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.hometask.HometaskRobotsDemo" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson24.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson25.hometask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson22.WriterRunner" />
+    <configuration name="TaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.task.TaskDemo" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson22.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson25.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.oop.lesson24.task.Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson24.task.Task5" />
+    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.volat.VolatileDemo" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson24.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson25.volat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task7" />
-        <item itemvalue="Application.Task8" />
-        <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.com.dmdev.oop.lesson24.task.Task5" />
-        <item itemvalue="Application.WriterRunner" />
+        <item itemvalue="Application.HometaskRobotsDemo" />
+        <item itemvalue="Application.AccountDemo" />
+        <item itemvalue="Application.VolatileDemo" />
+        <item itemvalue="Application.TaskDemo" />
+        <item itemvalue="Application.CashboxRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +199,9 @@
       <workItem from="1666261829560" duration="45427000" />
       <workItem from="1666553271878" duration="66640000" />
       <workItem from="1667241539124" duration="27282000" />
-    </task>
-    <task id="LOCAL-00001" summary="Homework_1">
-      <created>1662648601807</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1662648601807</updated>
+      <workItem from="1667674939674" duration="19702000" />
+      <workItem from="1667927482324" duration="7721000" />
+      <workItem from="1668114976895" duration="22772000" />
     </task>
     <task id="LOCAL-00002" summary="Homework2_3">
       <created>1662999316472</created>
@@ -511,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667511157198</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="lesson23 and lesson24">
+      <created>1667674953445</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1667674953446</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,6 +609,10 @@
           <line>6</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="155" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
