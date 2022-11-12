@@ -30,14 +30,10 @@ public class ResultRunner {
         Path pathToResult = Path.of("resources", "result.csv");
 
         Map<Integer, Item> strings1 = ResultUtil.readItemsCSV(pathToItems);
-        for (Map.Entry<Integer, Item> integer : strings1.entrySet()) {
-            System.out.println(integer.getKey() + " " + integer.getValue().toString());
-        }
+        strings1.values().forEach(System.out::println);
 
         Map<Integer, Price> strings2 = ResultUtil.readPricesCSV(pathToPrices);
-        for (Map.Entry<Integer, Price> integer : strings2.entrySet()) {
-            System.out.println(integer.getKey() + " " + integer.getValue().toString());
-        }
+        strings2.values().forEach(System.out::println);
 
         Map<Integer, Result> resultCSV = ResultUtil.getResultCSV(pathToPrices, pathToItems);
         for (Map.Entry<Integer, Result> resultEntry : resultCSV.entrySet()) {

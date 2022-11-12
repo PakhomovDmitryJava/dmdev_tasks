@@ -7,7 +7,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -58,15 +57,8 @@ public final class ResultUtil {
         for (Map.Entry<Integer, Item> entry : itemMap.entrySet()) {
             Integer key = entry.getKey();
             Item value = entry.getValue();
-            for (Map.Entry<Integer, Price> price : priceMap.entrySet()) {
-                if (Objects.equals(key, price.getKey())) {
-                    resultCSV.put(key, new Result(key,
-                            value.getName(),
-                            price.getValue().getPrice()));
-                }
-            }
-        }
-        return resultCSV;
+            resultCSV.put(key, new Result(key, value.getName(), priceMap.get(key).getPrice()));
+        } return resultCSV;
     }
 
     public static void writeResultCSV(Map<Integer, Result> resultMap, Path pathForResult) {
