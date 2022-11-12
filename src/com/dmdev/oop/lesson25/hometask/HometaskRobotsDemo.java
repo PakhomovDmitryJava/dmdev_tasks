@@ -20,30 +20,6 @@ import java.util.List;
  */
 public class HometaskRobotsDemo {
     public static void main(String[] args) {
-//        List<RobotDetails> detailsInJunkyard = RandomDetailsUtil.getFirstNightDetails(100);
-//        System.out.println(detailsInJunkyard.size());
-//
-//        for (RobotDetails detail : RobotDetails.values()) {
-//            detailsInJunkyard.remove(detail);
-//        }
-//        System.out.println(detailsInJunkyard.size());
-//
-//        detailsInJunkyard.removeAll(Arrays.asList(RobotDetails.values()));
-//        System.out.println(detailsInJunkyard.size());
-//
-
-
-//        for (int i = 0; i < detailsInJunkyard.size(); i++) {
-//            System.out.println(i + " - " + detailsInJunkyard.get(i));
-//        }
-//        detailsInJunkyard.addAll(RandomDetailsUtil.getEveryNightDetails());
-//        for (int i = 0; i < detailsInJunkyard.size(); i++) {
-//            System.out.println(i + " - " + detailsInJunkyard.get(i));
-//        }
-//
-//        RandomDetailsUtil.getRandomDetailsFromJunkyard(detailsInJunkyard);
-//        RandomDetailsUtil.createRobot(detailsInJunkyard);
-
         List<RobotDetails> robotDetailsFromJunkyard = RandomDetailsUtil.getFirstNightDetails();
         System.out.println(robotDetailsFromJunkyard.size());
         Thread producerThread = new Thread(new ProducerRobotDetailsThread(robotDetailsFromJunkyard));

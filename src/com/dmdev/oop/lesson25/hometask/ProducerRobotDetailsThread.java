@@ -14,9 +14,10 @@ public class ProducerRobotDetailsThread implements Runnable {
         synchronized (junkyardDetails) {
             while (true) {
                 try {
-                    List<RobotDetails> detailsFromPlantToJunk = RandomDetailsUtil.getEveryNightDetails();
-                    detailsFromPlantToJunk.forEach(detail-> System.out.println(detail.toString() + " to junk!"));
+                    List<RobotDetails> detailsFromPlantToJunk = RandomDetailsUtil.getFirstNightDetails();
+                    detailsFromPlantToJunk.forEach(detail -> System.out.println(detail.toString() + " to junk!"));
                     junkyardDetails.addAll(detailsFromPlantToJunk);
+                    junkyardDetails.notifyAll();
                     junkyardDetails.wait(100);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
