@@ -28,6 +28,7 @@ public class ResultRunner {
         Path pathToItems = Path.of("resources", "items-name.csv");
         Path pathToPrices = Path.of("resources", "items-price.csv");
         Path pathToResult = Path.of("resources", "result.csv");
+        Path pathToErrors = Path.of("resources", "errors.csv");
 
         Map<Integer, Item> strings1 = ResultUtil.readItemsCSV(pathToItems);
         strings1.values().forEach(System.out::println);
@@ -35,12 +36,15 @@ public class ResultRunner {
         Map<Integer, Price> strings2 = ResultUtil.readPricesCSV(pathToPrices);
         strings2.values().forEach(System.out::println);
 
-        Map<Integer, Result> resultCSV = ResultUtil.getResultCSV(pathToPrices, pathToItems);
-        for (Map.Entry<Integer, Result> resultEntry : resultCSV.entrySet()) {
-            System.out.println(resultEntry.getKey() + " " + resultEntry.getValue().toString());
+
+        try {
+            Map<Integer, Result> resultCSV = ResultUtil.getResultCSV(pathToPrices, pathToItems, pathToErrors);
+            for (Map.Entry<Integer, Result> resultEntry : resultCSV.entrySet()) {
+                System.out.println(resultEntry.getKey() + " " + resultEntry.getValue().toString());
+                ResultUtil.writeResultCSV(resultCSV, pathToResult);
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
         }
-
-        ResultUtil.writeResultCSV(resultCSV, pathToResult);
-
     }
 }

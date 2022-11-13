@@ -5,8 +5,11 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson25 and hometask">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="some changes in hometask at lesson25 and hometask11">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/MissedIdException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/items-name.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/items-name.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/items-price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/items-price.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" afterDir="false" />
     </list>
@@ -80,7 +83,7 @@
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResultRunner">
+  <component name="RunManager" selected="Application.com.dmdev.hometask11.ResultRunner">
     <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.account.AccountDemo" />
       <module name="dmdev_tasks" />
@@ -107,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask11.ResultRunner" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson20.Task2" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.task.TaskDemo" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson25.task.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lesson20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.dmdev.hometask11.ResultRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask11.ResultRunner" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.hometask11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ResultRunner" />
+        <item itemvalue="Application.com.dmdev.hometask11.ResultRunner" />
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.HometaskRobotsDemo" />
         <item itemvalue="Application.AccountDemo" />
         <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.TaskDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +177,7 @@
       <workItem from="1667241539124" duration="27282000" />
       <workItem from="1667674939674" duration="19702000" />
       <workItem from="1667927482324" duration="7721000" />
-      <workItem from="1668114976895" duration="29212000" />
-    </task>
-    <task id="LOCAL-00004" summary="lesson 7">
-      <created>1663016671270</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1663016671270</updated>
+      <workItem from="1668114976895" duration="44374000" />
     </task>
     <task id="LOCAL-00005" summary="lesson 7&#10;Hometask_alone3_1">
       <created>1663076996348</created>
@@ -519,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668256934229</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="some changes in hometask at lesson25 and hometask11">
+      <created>1668258480032</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1668258480032</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code clean and work on bugs:Hometask12, Hometask13, Hometask21, Hometask22." />
     <MESSAGE value="Code clean and work on bugs: HometaskAlone23" />
     <MESSAGE value="Code clean and work on bugs: HometaskAlone31, 32" />
     <MESSAGE value="Code cleanup: HometaskAlone33" />
@@ -562,7 +564,8 @@
     <MESSAGE value="hometask11 finished" />
     <MESSAGE value="lesson23 and lesson24" />
     <MESSAGE value="lesson25 and hometask" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson25 and hometask" />
+    <MESSAGE value="some changes in hometask at lesson25 and hometask11" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes in hometask at lesson25 and hometask11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,10 +585,6 @@
           <line>6</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="155" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -50,15 +52,28 @@ public final class ResultUtil {
         return map;
     }
 
-    public static Map<Integer, Result> getResultCSV(Path pathToPrices, Path pathToItems) {
+    public static Map<Integer, Result> getResultCSV(Path pathToPrices, Path pathToItems, Path pathToErrors) throws NullPointerException {
         Map<Integer, Item> itemMap = readItemsCSV(pathToItems);
         Map<Integer, Price> priceMap = readPricesCSV(pathToPrices);
         HashMap<Integer, Result> resultCSV = new HashMap<>(itemMap.size() + priceMap.size());
+        Set<Integer> errorsList = new HashSet<>();
         for (Map.Entry<Integer, Item> entry : itemMap.entrySet()) {
-            Integer key = entry.getKey();
-            Item value = entry.getValue();
-            resultCSV.put(key, new Result(key, value.getName(), priceMap.get(key).getPrice()));
-        } return resultCSV;
+            Integer keyItem = entry.getKey();
+            Item valueItem = entry.getValue();
+            for (Map.Entry<Integer, Price> integerPriceEntry : priceMap.entrySet()) {
+                Integer keyPrice = entry.getKey();
+                Item valuePrice = entry.getValue();
+                if (!priceMap.containsKey(keyItem)) {
+                    errorsList.add(keyItem);
+                } else if (!itemMap.containsKey(keyPrice)) {
+                    errorsList.add(keyPrice);
+                } else {
+                    resultCSV.put(keyItem, new Result(keyItem, valueItem.getName(), priceMap.get(keyItem).getPrice()));
+                }
+            }
+        }
+        writeErrorsCSV(errorsList, pathToErrors);
+        return resultCSV;
     }
 
     public static void writeResultCSV(Map<Integer, Result> resultMap, Path pathForResult) {
@@ -70,7 +85,17 @@ public final class ResultUtil {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
 
+    public static void writeErrorsCSV(Set<Integer> errorsList, Path pathForResult) {
+        try (BufferedWriter fileWriter = Files.newBufferedWriter(pathForResult)) {
+            for (Integer integer : errorsList) {
+                fileWriter.append(integer.toString());
+                fileWriter.newLine();
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
 
