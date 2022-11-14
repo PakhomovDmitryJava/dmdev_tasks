@@ -17,7 +17,6 @@ public class WhiteCrystalConsumer extends CrystalConsumer {
     public void run() {
         while (counter < capacity && finish.get()) {
             synchronized (queue) {
-
                 for (int i = 0; i < ThreadLocalRandom.current().nextInt(2, 5); i++) {
                     if (!queue.isEmpty()) {
                         Crystal crystal = queue.poll();

@@ -22,7 +22,6 @@ public class RedCrystalConsumer extends CrystalConsumer {
                     if (!queue.isEmpty()) {
                         Crystal crystal = queue.poll();
                         if (Objects.requireNonNull(crystal).getColor() == CrystalColorEnum.RED) {
-                            queue.poll();
                             counter++;
                             System.out.println("Got red crystal!");
                         } else {

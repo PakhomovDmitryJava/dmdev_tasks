@@ -20,7 +20,7 @@ public class CrystalRunner {
 
         Queue<Crystal> queue = new LinkedBlockingQueue<>();
         AtomicBoolean isNotFull = new AtomicBoolean(true);
-        Thread crystalProducer  = new Thread(new CrystalProducer(queue,500, isNotFull));
+        Thread crystalProducer  = new Thread(new CrystalProducer(queue,1000, isNotFull));
         Thread redConsumer = new Thread(new RedCrystalConsumer(queue,100, isNotFull));
         Thread whiteConsumer = new Thread(new WhiteCrystalConsumer(queue,100,isNotFull));
 

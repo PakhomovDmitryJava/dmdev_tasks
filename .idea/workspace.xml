@@ -5,15 +5,8 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask11 some changes">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/Crystal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalColorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/WhiteCrystalConsumer.java" afterDir="false" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,14 +176,7 @@
       <workItem from="1667241539124" duration="27282000" />
       <workItem from="1667674939674" duration="19702000" />
       <workItem from="1667927482324" duration="7721000" />
-      <workItem from="1668114976895" duration="65641000" />
-    </task>
-    <task id="LOCAL-00006" summary="lesson 7&#10;Hometask_alone3_2">
-      <created>1663079501759</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663079501759</updated>
+      <workItem from="1668114976895" duration="66354000" />
     </task>
     <task id="LOCAL-00007" summary="lesson 7&#10;Hometask_alone3_3">
       <created>1663095524880</created>
@@ -528,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668358392538</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="hometask12">
+      <created>1668436495331</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1668436495331</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code clean and work on bugs: HometaskAlone31, 32" />
     <MESSAGE value="Code cleanup: HometaskAlone33" />
     <MESSAGE value="Hometask6 was started&#10;Hometask4 code cleanup" />
     <MESSAGE value="Hometask6" />
@@ -571,7 +563,8 @@
     <MESSAGE value="lesson25 and hometask" />
     <MESSAGE value="some changes in hometask at lesson25 and hometask11" />
     <MESSAGE value="hometask11 some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask11 some changes" />
+    <MESSAGE value="hometask12" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
