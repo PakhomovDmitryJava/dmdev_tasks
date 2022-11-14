@@ -1,5 +1,9 @@
 package com.dmdev.hometask12;
 
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.atomic.AtomicBoolean;
+
 /**
  * Существует две постоянно соревнующиеся расы: маги огня и маги воздуха.
  * Их задача - как можно быстрее набрать 500 красных и 500 белых кристаллов.
@@ -14,5 +18,14 @@ package com.dmdev.hometask12;
 public class CrystalRunner {
     public static void main(String[] args) {
 
+        Queue<Crystal> queue = new LinkedBlockingQueue<>();
+        AtomicBoolean isNotFull = new AtomicBoolean(true);
+        Thread crystalProducer  = new Thread(new CrystalProducer(queue,500, isNotFull));
+        Thread redConsumer = new Thread(new RedCrystalConsumer(queue,100, isNotFull));
+        Thread whiteConsumer = new Thread(new WhiteCrystalConsumer(queue,100,isNotFull));
+
+        crystalProducer.start();
+        whiteConsumer.start();
+        redConsumer.start();
     }
 }
