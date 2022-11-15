@@ -5,8 +5,16 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask12">
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted">
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson26/AtomicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternFindExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +63,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java/dmdev/dmdev_tasks/resources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Lombok"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.dmdev.oop.lesson7" />
@@ -82,20 +93,7 @@
       <recent name="com.dmdev.hometask12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrystalRunner">
-    <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lesson25.account.AccountDemo" />
-      <module name="dmdev_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dmdev.oop.lesson25.account.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="CrystalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask12.CrystalRunner" />
       <module name="dmdev_tasks" />
@@ -135,12 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dmdev.hometask11.ResultRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask11.ResultRunner" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lessson27.task.Task3" />
       <module name="dmdev_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask11.*" />
+          <option name="PATTERN" value="com.dmdev.oop.lessson27.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dmdev.oop.lessson27.task.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dmdev.oop.lessson27.task.Task2" />
+      <module name="dmdev_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dmdev.oop.lessson27.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CrystalRunner" />
-        <item itemvalue="Application.com.dmdev.hometask11.ResultRunner" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.com.dmdev.oop.lessson27.task.Task2" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.HometaskRobotsDemo" />
-        <item itemvalue="Application.AccountDemo" />
+        <item itemvalue="Application.CrystalRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +187,8 @@
       <workItem from="1667241539124" duration="27282000" />
       <workItem from="1667674939674" duration="19702000" />
       <workItem from="1667927482324" duration="7721000" />
-      <workItem from="1668114976895" duration="66354000" />
-    </task>
-    <task id="LOCAL-00007" summary="lesson 7&#10;Hometask_alone3_3">
-      <created>1663095524880</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663095524880</updated>
+      <workItem from="1668114976895" duration="81603000" />
+      <workItem from="1668534745411" duration="352000" />
     </task>
     <task id="LOCAL-00008" summary="lesson 7&#10;Hometask_alone3_3">
       <created>1663095536962</created>
@@ -521,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668436495331</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted">
+      <created>1668437207968</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1668437207968</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code cleanup: HometaskAlone33" />
     <MESSAGE value="Hometask6 was started&#10;Hometask4 code cleanup" />
     <MESSAGE value="Hometask6" />
     <MESSAGE value="Hometask7" />
@@ -564,7 +575,8 @@
     <MESSAGE value="some changes in hometask at lesson25 and hometask11" />
     <MESSAGE value="hometask11 some changes" />
     <MESSAGE value="hometask12" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask12" />
+    <MESSAGE value="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
