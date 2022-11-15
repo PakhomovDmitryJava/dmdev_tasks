@@ -5,17 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson26/AtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternFindExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" afterDir="false" />
-    </list>
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson27" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +64,7 @@
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Lombok"
@@ -188,14 +178,7 @@
       <workItem from="1667674939674" duration="19702000" />
       <workItem from="1667927482324" duration="7721000" />
       <workItem from="1668114976895" duration="81603000" />
-      <workItem from="1668534745411" duration="352000" />
-    </task>
-    <task id="LOCAL-00008" summary="lesson 7&#10;Hometask_alone3_3">
-      <created>1663095536962</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663095536962</updated>
+      <workItem from="1668534745411" duration="437000" />
     </task>
     <task id="LOCAL-00009" summary="lesson 7&#10;Hometask_alone3_3">
       <created>1663156533447</created>
@@ -533,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668437207968</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="lesson27">
+      <created>1668535162454</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1668535162455</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hometask6 was started&#10;Hometask4 code cleanup" />
     <MESSAGE value="Hometask6" />
     <MESSAGE value="Hometask7" />
     <MESSAGE value="some changes in Hometask 6,7&#10;new lessons was added" />
@@ -576,7 +565,8 @@
     <MESSAGE value="hometask11 some changes" />
     <MESSAGE value="hometask12" />
     <MESSAGE value="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="hometask12&#10;str. 25 RedCrystalConsumer poll() deleted" />
+    <MESSAGE value="lesson27" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
