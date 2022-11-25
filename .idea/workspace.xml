@@ -4,8 +4,296 @@
     <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson27" />
+    <list default="true" id="dfd9d95a-537f-468d-8ce4-3da4f0a22e18" name="Changes" comment="lesson27">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/projectlombok_lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/CrazyScientist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/RandomDetailsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/DAO/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/DAO/FlightDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/DAO/TicketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/DTO/TicketFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/DaoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/JdbcRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/TransactionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/entity/FlightEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/entity/TicketEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/exceptiom/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/util/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/airport/util/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/sql_hometask_part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/sql_hometask_part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/java/sql/sql_lessons.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gradle/src/main/resources/sql_commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmdev_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dmdev_tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask1/HometaskAlone11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone12.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask1/HometaskAlone12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask1/HometaskAlone13.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask1/HometaskAlone13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/FistName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/FistName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/LastName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/LastName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/SortedStudentsAverageScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/SortedStudentsAverageScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/StudentRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask10/StudentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask10/StudentUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/MissedIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/MissedIdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/ResultRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask11/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask11/ResultUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/Crystal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/Crystal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalColorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/CrystalColorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/CrystalConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/CrystalProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/CrystalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/CrystalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/RedCrystalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/RedCrystalConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask12/WhiteCrystalConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask12/WhiteCrystalConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone21.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask2/HometaskAlone21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone22.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask2/HometaskAlone22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask2/HometaskAlone23.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask2/HometaskAlone23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone31.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask3/HometaskAlone31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask3/HometaskAlone32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone33.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask3/HometaskAlone33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Apartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask4/Apartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask4/Floor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask4/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/HomeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask4/HomeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask4/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask4/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask5/HometaskAlone51.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask5/HometaskAlone51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask5/HometaskAlone52.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask5/HometaskAlone52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/Atm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask6/Atm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask6/AtmRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask6/AtmRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Asteroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/ColdPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/ColdPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/EarthLikePlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/EarthLikePlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/GiantPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/GiantPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/GiantStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/GiantStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/HotPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/HotPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Meteorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Meteoroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Meteoroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Rotating.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Rotating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Shining.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Shining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/SpaceObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/SpaceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SpaceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/SpaceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SubGiantStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/SubGiantStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/SuperGiantStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/SuperGiantStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask7/hometask.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask7/hometask.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task1/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task1/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task1/ChatRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task1/ChatRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task1/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task1/ChatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task2/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task2/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task2/ChatRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task2/ChatRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task2/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task2/ChatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask8/task2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask8/task2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/CinemaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/CinemaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/CinemaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/hometask9/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/hometask9/Month.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson4/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson4/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson4/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson4/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson4/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson4/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson4/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson5/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson5/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson5/hometask/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson5/hometask/Hometask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson5/hometask/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson5/hometask/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/hometask/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/hometask/Hometask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/hometask/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/hometask/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/hometask/Hometask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/hometask/Hometask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson6/task/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson6/task/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/ArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/ArrayExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/ArrayExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/hometask/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/hometask/Hometask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/hometask/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/hometask/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/hometask/Hometask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/hometask/Hometask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/hometask/Hometask4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/hometask/Hometask4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/lesson7/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/lesson7/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson1/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson1/TestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask1/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/hometask1/Hometask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/hometask1/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/hometask1/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/LessonRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/LessonRunner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/LessonRunner3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/LessonRunner4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/LessonRunner4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Printable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Ram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/Ssd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/Ssd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/hometask1/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/hometask1/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/hometask1/PointRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/hometask1/PointRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson11/hometask1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson11/hometask1/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Countable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Countable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/IsoscelesTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/IsoscelesTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/ShapeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/ShapeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/ShapeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/ShapeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/SpaceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/SpaceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/hometask/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/hometask/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Mortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Mortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/TrainingGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/TrainingGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/WeaponRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/WeaponRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/MagicWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/MagicWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/MeleeWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/MeleeWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/RangeWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/RangeWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson15/task/weapon/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson15/task/weapon/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/Describable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson16/Describable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/EnumRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson16/EnumRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson16/ProcessorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson16/ProcessorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson18/hometask/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/PairRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson18/hometask/PairRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson18/hometask/PairUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson18/hometask/PairUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/ArrayListRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/ArrayListRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask1/MarkLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask1/MarkLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask1/MarkLengthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask1/MarkLengthUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/StudentsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask2/StudentsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask2/StudentsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask2/StudentsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/TextRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask3/TextRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask3/TextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask3/TextUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/GarageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/GarageRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Hybrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Hybrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Sportcar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Sportcar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/hometask4/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/hometask4/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/map/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/map/SortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/map/SortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/person/PersonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/person/PersonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/set/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/set/SetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson19/treemap/TreeMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson19/treemap/TreeMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson2/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson2/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson2/ComputerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson2/ComputerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson20/ExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/ExceptionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson20/PakhomovException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/PakhomovException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson20/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson20/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson20/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/LambdaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/MapReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/MapReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson21/task1/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson21/task1/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/FileRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/FileRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/InputStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/InputStreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/OutputRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/OutputRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/ReaderRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/ReaderRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/WriterRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/WriterRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/hometask/Hometask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/hometask/Hometask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/hometask/Hometask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/hometask/Hometask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson22/task/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson22/task/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson23/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson23/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson23/SerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson23/SerializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/DateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/DateTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson24/task/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson24/task/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/SimpleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/SimpleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/SimpleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/SimpleThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/AccountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/account/AccountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/account/AccountThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/account/AccountThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/CounterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/counter/CounterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/CounterThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/counter/CounterThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/counter/ListThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/counter/ListThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/ConsumerRobotDetailsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/ConsumerRobotDetailsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/CrazyScientist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/HometaskRobotsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/HometaskRobotsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/ProducerRobotDetailsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/ProducerRobotDetailsThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/RandomDetailsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/RandomDetailsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/hometask/RobotDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/hometask/RobotDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/immutable/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/immutable/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/immutable/ExampleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/immutable/ExampleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/list/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/list/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/BuyerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/queue/BuyerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/Cashbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/queue/Cashbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/queue/CashboxRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/queue/CashboxRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/ConsumerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/ConsumerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/ProducerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/ProducerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/RandomDetailsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/RandomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/TaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/TaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/task/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/task/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson25/volat/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson25/volat/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson6/Lesson6Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson6/Lesson6Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/CompositionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/CompositionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/Ram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/Ssd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/Ssd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/task/TimeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/task/TimeInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson7/task/TimeIntervalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson7/task/TimeIntervalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lesson9/StaticRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lesson9/StaticRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson26/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson26/AtomicDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson27/PatternExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/PatternFindExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson27/PatternFindExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson27/task/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson27/task/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/oop/lessson27/task/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gradle/src/main/java/oop/lessson27/task/Task3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +301,28 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Gradle">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Gradle" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,19 +365,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
     "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping><databases><list><schema-mapping-item><source-data-source-id>2aa9e2d8-7271-4aba-a52f-82bad99cb649</source-data-source-id><source-path>database/\"company_repository\"/schema/\"public\"</source-path><target-data-source-id>2aa9e2d8-7271-4aba-a52f-82bad99cb649</target-data-source-id><target-path>database/\"company_repository\"/schema/\"company_storage\"</target-path></schema-mapping-item></list></databases></schema-mapping>",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/resources",
+    "last_opened_file_path": "C:/java/dmdev/dmdev_tasks/Gradle/src/main/java/sql/airport",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Lombok"
+    "settings.editor.selected.configurable": "preferences.keymap"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,6 +396,8 @@
       <recent name="com.dmdev.oop.lesson7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\dmdev\dmdev_tasks\Gradle\src\main\java\sql\airport" />
+      <recent name="C:\java\dmdev\dmdev_tasks\Gradle\src\main\resources" />
       <recent name="C:\java\dmdev\dmdev_tasks\resources" />
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask10" />
       <recent name="C:\java\dmdev\dmdev_tasks\src\com\dmdev\hometask8\task2" />
@@ -83,13 +406,13 @@
       <recent name="com.dmdev.hometask12" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="CrystalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dmdev.hometask12.CrystalRunner" />
-      <module name="dmdev_tasks" />
+  <component name="RunManager" selected="Application.DaoRunner">
+    <configuration name="DaoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql.airport.DaoRunner" />
+      <module name="Gradle.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dmdev.hometask12.*" />
+          <option name="PATTERN" value="sql.airport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +474,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaoRunner" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.com.dmdev.oop.lessson27.task.Task2" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.HometaskRobotsDemo" />
-        <item itemvalue="Application.CrystalRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -178,14 +501,12 @@
       <workItem from="1667674939674" duration="19702000" />
       <workItem from="1667927482324" duration="7721000" />
       <workItem from="1668114976895" duration="81603000" />
-      <workItem from="1668534745411" duration="437000" />
-    </task>
-    <task id="LOCAL-00009" summary="lesson 7&#10;Hometask_alone3_3">
-      <created>1663156533447</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663156533448</updated>
+      <workItem from="1668534745411" duration="1041000" />
+      <workItem from="1668625948448" duration="927000" />
+      <workItem from="1668626948059" duration="21018000" />
+      <workItem from="1668866597940" duration="5922000" />
+      <workItem from="1668877327719" duration="27679000" />
+      <workItem from="1669378325698" duration="608000" />
     </task>
     <task id="LOCAL-00010" summary="Hometask4">
       <created>1663185001422</created>
@@ -523,7 +844,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668535162455</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="lesson27">
+      <created>1668535195343</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1668535195343</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,17 +900,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson10/task/Task5.java</url>
+          <url>file://$PROJECT_DIR$/Gradle/src/main/java/oop/lesson10/task/Task5.java</url>
           <line>17</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/hometask3/HometaskAlone32.java</url>
+          <url>file://$PROJECT_DIR$/Gradle/src/main/java/hometask3/HometaskAlone32.java</url>
           <line>43</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/dmdev/oop/lesson20/ExceptionExample.java</url>
+          <url>file://$PROJECT_DIR$/Gradle/src/main/java/oop/lesson20/ExceptionExample.java</url>
           <line>6</line>
           <option name="timeStamp" value="140" />
         </line-breakpoint>
